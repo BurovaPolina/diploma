@@ -1,0 +1,30 @@
+# Логика:
+# task1 запускается каждую минуту;
+# Если она успешна → запускается task2;
+# Если она с ошибкой → запускается task_tests, и task1 удаляется из планировщика (больше не выполняется).
+
+tasks:
+  - name: dns1
+    type: script
+    path: ../dns/src/dns-selenium.py --start 1 --end 10
+    schedule: every 1 minute
+    args: ["--mode", "fast"]
+    #on_success: [task2]
+    on_error: [task_tests]
+
+  - name: dns2
+    type: script
+    path: ../dns/src/dns-selenium.py --start 10 --end 20
+    args: ["--verbose"]
+    on_error: [task_tests]
+
+  - name: dns3
+    type: script
+    path: ../dns/src/dns-selenium.py --start 20
+    args: ["--verbose"]
+    on_error: [task_tests]
+
+  - name: task_tests
+    type: pytest
+    path: ../dns/tests
+    args: ["-v", "--disable-warnings"]

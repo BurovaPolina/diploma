@@ -1,0 +1,16 @@
+{
+  "name": "mongo-scripts",
+  "version": "1.0.0",
+  "main": "hh-salary.js",
+  "scripts": {
+    "run": "node hh-salary.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-stringify-pretty-compact": "^4.0.0",
+    "mongodb": "^6.14.2"
+  },
+  "keywords": [],
+  "description": ""
+}
