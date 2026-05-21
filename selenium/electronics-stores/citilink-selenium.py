@@ -76,8 +76,7 @@ def parse_page(driver):
     page_html = driver.page_source
     soup = BeautifulSoup(page_html, 'html.parser')
 
-    # ОБНОВЛЁННЫЕ СЕЛЕКТОРЫ (на основе актуального HTML)
-    # Карточки товаров теперь находятся по другому классу
+
     all_cards = soup.find_all('div', class_='e1k9rx9o0')
 
     # Если не нашли, пробуем альтернативный селектор
@@ -154,7 +153,7 @@ def main():
             driver.execute_script("window.scrollTo(0, document.body.scrollHeight)")
             time.sleep(2)
 
-        # СОХРАНЯЕМ HTML СТРАНИЦЫ (ЭТО ГЛАВНОЕ ДЛЯ ДИПЛОМА)
+
         html_file = save_html(driver, 'citilink_page.html')
         print(f"HTML страницы сохранён: {html_file}")
 

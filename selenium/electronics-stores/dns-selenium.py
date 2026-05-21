@@ -1,15 +1,10 @@
-#python dns-selenium.py --start 1 --end 5
-
 import os
 import time
 import json
 import argparse
-import traceback
 from urllib.parse import urljoin
 from selenium import webdriver
-from selenium.common.exceptions import (NoSuchElementException,
-                                        TimeoutException,
-                                        WebDriverException)
+from selenium.common.exceptions import TimeoutException, WebDriverException
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.chrome.service import Service
 from webdriver_manager.chrome import ChromeDriverManager
@@ -18,7 +13,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # Конфигурация
-PARAMS_LOG = 'last_run_params.json'
 BASE_DNS_URL = "https://www.dns-shop.ru/"
 params = [
     {
@@ -27,71 +21,232 @@ params = [
     }
 ]
 
-START_PAGE = 1
-END_PAGE = None
-RESUME = True
-OUTPUT_DIR = 'res'
-PAGE_LOAD_TIMEOUT = 10
-MAX_RETRIES = 3
+OUTPUT_FILE = '../../dns/src/res/dns.html'
+SCROLL_PAUSE = 2
+SCROLL_TIMES = 3
+PAGE_LOAD_TIMEOUT = 30
 
 
 class BrowserSession:
     def __init__(self):
         self.driver = None
-        self.wait = None
         self.setup_browser()
 
     def setup_browser(self):
         options = Options()
+
+        # Основные опции для обхода защиты
         options.add_argument("--disable-blink-features=AutomationControlled")
-        options.add_argument('--disable-dev-shm-usage')
-        options.add_argument("start-maximized")
-        options.add_experimental_option("excludeSwitches", ["enable-automation", "test-type"])
+        options.add_argument("--disable-dev-shm-usage")
+        options.add_argument("--no-sandbox")
+        options.add_argument("--disable-gpu")
+        options.add_argument("--disable-web-security")
+        options.add_argument("--disable-features=VizDisplayCompositor")
+        options.add_argument("--disable-extensions")
+        options.add_argument("--disable-default-apps")
+        options.add_argument("--disable-component-extensions-with-background-pages")
+        options.add_argument("--disable-client-side-phishing-detection")
+
+        # Реалистичные параметры окна
+        options.add_argument("--window-size=1920,1080")
+        options.add_argument("--start-maximized")
+
+        # User-Agent как у обычного Chrome
+        options.add_argument(
+            "--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/148.0.0.0 Safari/537.36")
+
+        # Отключаем автоматизацию
+        options.add_experimental_option("excludeSwitches", ["enable-automation", "enable-logging"])
         options.add_experimental_option('useAutomationExtension', False)
-        options.add_argument("--incognito")
 
-        service = Service(ChromeDriverManager().install())
-        self.driver = webdriver.Chrome(service=service, options=options)
-        self.driver.delete_all_cookies()
-        self.driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
-        self.wait = WebDriverWait(self.driver, PAGE_LOAD_TIMEOUT).until(EC.presence_of_element_located((By.CSS_SELECTOR, "body")))
+        # Реалистичные настройки
+        prefs = {
+            "profile.managed_default_content_settings.images": 1,  # Включить изображения (реалистичнее)
+            "profile.default_content_setting_values.notifications": 2,
+            "credentials_enable_service": False,
+            "profile.password_manager_enabled": False,
+            "profile.default_content_setting_values.cookies": 1
+        }
+        options.add_experimental_option("prefs", prefs)
 
+        # Добавляем аргументы для стабильности
+        options.add_argument("--disable-browser-side-navigation")
+        options.add_argument("--disable-logging")
+        options.add_argument("--log-level=3")
+        options.add_argument("--silent")
 
-        self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
-            'source': '''
-                delete window.cdc_adoQpoasnfa76pfcZLmcfl_Array;
-                delete window.cdc_adoQpoasnfa76pfcZLmcfl_Promise;
-                delete window.cdc_adoQpoasnfa76pfcZLmcfl_Symbol;
-            '''
-        })
-
-    def ensure_page_load(self, url):
-        """Гарантирует загрузку страницы с проверкой URL"""
         try:
-            print(f"Loading URL: {url}")
-            self.driver.get(url)
-            if not self.driver.current_url.startswith(('http://', 'https://')):
-                raise WebDriverException(f"Invalid URL loaded: {self.driver.current_url}")
+            service = Service(ChromeDriverManager().install())
+            self.driver = webdriver.Chrome(service=service, options=options)
 
-            # Явная проверка загрузки основного контента
-            self.wait.until(EC.presence_of_element_located((By.CSS_SELECTOR, "body")))
-            return True
+            # Модифицируем navigator после запуска
+            self.driver.execute_cdp_cmd("Page.addScriptToEvaluateOnNewDocument", {
+                'source': '''
+                    // Удаляем признаки WebDriver
+                    Object.defineProperty(navigator, 'webdriver', {
+                        get: () => undefined
+                    });
+
+                    // Добавляем реальные свойства
+                    Object.defineProperty(navigator, 'plugins', {
+                        get: () => [1, 2, 3, 4, 5]
+                    });
+
+                    Object.defineProperty(navigator, 'languages', {
+                        get: () => ['ru-RU', 'ru', 'en-US', 'en']
+                    });
+
+                    // Переопределяем permissions
+                    const originalQuery = window.navigator.permissions.query;
+                    window.navigator.permissions.query = (parameters) => (
+                        parameters.name === 'notifications' ?
+                            Promise.resolve({ state: Notification.permission }) :
+                            originalQuery(parameters)
+                    );
+
+                    // Скрываем Chrome Automation
+                    window.chrome = {
+                        runtime: {}
+                    };
+                '''
+            })
+
+            self.driver.set_page_load_timeout(PAGE_LOAD_TIMEOUT)
+            time.sleep(1)
+
         except Exception as e:
-            print(f"Failed to load page: {str(e)}")
+            print(f"Failed to setup browser: {str(e)}")
+            raise
+
+    def load_page(self, url):
+        """Загружает страницу с повторными попытками"""
+        max_attempts = 3
+
+        for attempt in range(max_attempts):
+            try:
+                print(f"Loading attempt {attempt + 1}/{max_attempts}: {url}")
+                self.driver.get(url)
+
+                # Ждем загрузки body
+                WebDriverWait(self.driver, 15).until(
+                    EC.presence_of_element_located((By.TAG_NAME, "body"))
+                )
+
+                # Ждем либо каталог, либо контент
+                try:
+                    WebDriverWait(self.driver, 20).until(
+                        EC.presence_of_element_located((By.CSS_SELECTOR,
+                                                        ".products-page, .catalog, main, .wrapper"))
+                    )
+                except:
+                    pass
+
+                # Проверяем, что страница не пустая
+                if "catalog" in self.driver.current_url.lower():
+                    print("Page loaded successfully")
+                    time.sleep(5)  # Даем время для начальной загрузки JS
+                    return True
+                else:
+                    print(f"Unexpected URL: {self.driver.current_url}")
+                    continue
+
+            except TimeoutException:
+                print(f"Timeout on attempt {attempt + 1}")
+                if attempt < max_attempts - 1:
+                    self.restart_browser()
+                continue
+
+            except WebDriverException as e:
+                print(f"WebDriver error: {str(e)}")
+                if "no such window" in str(e) or "target window already closed" in str(e):
+                    self.restart_browser()
+                continue
+
+            except Exception as e:
+                print(f"Error: {str(e)}")
+                if attempt < max_attempts - 1:
+                    self.restart_browser()
+                continue
+
+        return False
+
+    def scroll_to_load(self, times=3):
+        """Прокручивает страницу для загрузки товаров"""
+        print(f"Scrolling {times} times...")
+
+        for i in range(times):
+            try:
+                # Разные техники скролла
+                if i == 0:
+                    # Первая прокрутка - до конца
+                    self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+                elif i == 1:
+                    # Вторая - плавная
+                    self.driver.execute_script("""
+                        window.scrollTo({
+                            top: document.body.scrollHeight,
+                            behavior: 'smooth'
+                        });
+                    """)
+                else:
+                    # Третья - с задержкой
+                    self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
+
+                print(f"  Scroll {i + 1}/{times} - waiting {SCROLL_PAUSE}s")
+                time.sleep(SCROLL_PAUSE)
+
+                # Небольшой скролл вверх для активации lazy loading
+                if i < times - 1:
+                    self.driver.execute_script("window.scrollTo(0, document.body.scrollHeight * 0.7);")
+                    time.sleep(1)
+
+            except Exception as e:
+                print(f"Error during scroll: {str(e)}")
+                continue
+
+        # Возвращаемся наверх
+        try:
+            self.driver.execute_script("window.scrollTo(0, 0);")
+            time.sleep(1)
+        except:
+            pass
+
+        print("Scrolling finished")
+
+    def save_full_page(self, filepath):
+        """Сохраняет полную HTML страницу"""
+        try:
+            # Создаем директорию
+            os.makedirs(os.path.dirname(filepath), exist_ok=True)
+
+            # Получаем HTML
+            html = self.driver.page_source
+
+            if len(html) < 10000:
+                print("Warning: Page source is very small - might be incomplete")
+                return False
+
+            # Сохраняем
+            with open(filepath, 'w', encoding='utf-8') as f:
+                f.write(html)
+
+            size_kb = len(html) / 1024
+            print(f"Page saved! Size: {size_kb:.2f} KB")
+            print(f"Path: {filepath}")
+
+            return True
+
+        except Exception as e:
+            print(f"Error saving page: {str(e)}")
             return False
 
-    def restart_if_needed(self):
-        try:
-            # Проверяем, что браузер отвечает
-            current_url = self.driver.current_url
-            if not current_url or current_url == "data:,":
-                raise WebDriverException("Browser in invalid state")
-            return False
-        except WebDriverException:
-            print("Browser session invalid, restarting...")
-            self.close()
-            self.setup_browser()
-            return True
+    def restart_browser(self):
+        """Перезапускает браузер"""
+        print("Restarting browser...")
+        self.close()
+        time.sleep(2)
+        self.setup_browser()
+        time.sleep(1)
 
     def close(self):
         if self.driver:
@@ -99,240 +254,78 @@ class BrowserSession:
                 self.driver.quit()
             except:
                 pass
+            time.sleep(1)
 
 
-def get_last_saved_page(category_name):
-    """Получить номер последней сохраненной страницы для категории"""
-    if not os.path.exists(OUTPUT_DIR):
-        return 0
-
-    max_page = 0
-    for filename in os.listdir(OUTPUT_DIR):
-        if filename.startswith(f'dns_{category_name}_page_'):
-            try:
-                page_num = int(filename.split('_')[-1].split('.')[0])
-                max_page = max(max_page, page_num)
-            except ValueError:
-                continue
-    return max_page
-
-
-def save_page_content(category_name, page_num, content):
-    """Сохранить содержимое страницы"""
-    os.makedirs(OUTPUT_DIR, exist_ok=True)
-    filename = f'dns_{category_name}_page_{page_num}.html'
-    filepath = os.path.join(OUTPUT_DIR, filename)
-
-    # Проверяем, не существует ли уже файл
-    if os.path.exists(filepath):
-        print(f"File {filename} already exists, skipping save")
-        return
-
-    with open(filepath, 'w', encoding='utf-8') as f:
-        f.write(content)
-
-    metadata = {
-        'last_page': page_num,
-        'timestamp': time.time()
-    }
-    with open(os.path.join(OUTPUT_DIR, f'dns_{category_name}_metadata.json'), 'w') as f:
-        json.dump(metadata, f)
-
-
-def navigate_to_page(browser, base_url, target_page):
-    """Перейти на указанную страницу"""
-    if target_page == 1:
-        if not browser.ensure_page_load(base_url):
-            return False
-
-        try:
-            browser.wait.until(
-                EC.presence_of_element_located((By.CLASS_NAME, 'products-page__list')))
-            return True
-        except TimeoutException:
-            print("Failed to find products list on page 1")
-            return False
-
-    current_page = 1
-    if not browser.ensure_page_load(base_url):
-        return False
-
-    time.sleep(1)
-
-    while current_page < target_page:
-        try:
-            # Находим ссылку на следующую страницу
-            next_page_link = browser.wait.until(
-                EC.element_to_be_clickable((By.CSS_SELECTOR,
-                                            f'a.pagination-widget__page-link[href*="p={current_page + 1}"]')))
-
-            # Скроллим к ссылке и кликаем
-            browser.driver.execute_script("arguments[0].scrollIntoView(true);", next_page_link)
-            time.sleep(0.5)
-            browser.driver.execute_script("arguments[0].click();", next_page_link)
-
-            current_page += 1
-            print(f"Navigated to page {current_page}")
-
-            # Проверяем загрузку новой страницы
-            browser.wait.until(
-                EC.presence_of_element_located((By.CLASS_NAME, 'products-page__list')))
-            time.sleep(2)
-
-        except Exception as e:
-            print(f"Failed to navigate to page {current_page + 1}: {str(e)}")
-            return False
-
-    return True
-
-
-def scrape_category(browser, param, start_page=1, end_page=None, resume=True):
-    """Основная функция сбора данных для категории"""
+def scrape_category(browser, param, output_file):
+    """Собирает данные с категории"""
     category_url = urljoin(BASE_DNS_URL, f"catalog/{param['code']}/{param['name']}/")
     category_name = param["name"]
 
-    print(f"\n{'=' * 50}")
-    print(f"Processing category: {category_name}")
-    print(f"Category URL: {category_url}")
-    print(f"{'=' * 50}\n")
+    print(f"\n{'=' * 60}")
+    print(f"Category: {category_name}")
+    print(f"URL: {category_url}")
+    print(f"Output: {output_file}")
+    print(f"{'=' * 60}\n")
 
-    if resume:
-        last_saved_page = get_last_saved_page(category_name)
-        if last_saved_page > 0:
-            start_page = last_saved_page + 1
-            print(f"Resuming from page {start_page}")
+    # Загружаем страницу с повторными попытками
+    if not browser.load_page(category_url):
+        print("Failed to load page after all attempts")
+        return False
 
-            if not navigate_to_page(browser, category_url, start_page):
-                print("Failed to navigate to the target page")
-                return
+    # Ждем дополнительно перед скроллом
+    print("Waiting for page to stabilize...")
+    time.sleep(5)
 
-    current_page = start_page
+    # Прокручиваем
+    browser.scroll_to_load(SCROLL_TIMES)
 
-    while True:
-        if end_page and current_page > end_page:
-            break
+    # Еще ждем перед сохранением
+    print("Waiting for all products to load...")
+    time.sleep(3)
 
-        print(f"\nProcessing page {current_page}")
+    # Сохраняем
+    print("\nSaving page...")
+    if browser.save_full_page(output_file):
+        print("\n✓ Successfully saved!")
+        return True
+    else:
+        print("\n✗ Failed to save")
+        return False
 
-        for attempt in range(MAX_RETRIES):
-            try:
-                if browser.restart_if_needed():
-                    print("Browser was restarted, reloading page...")
-                    if not navigate_to_page(browser, category_url, current_page):
-                        raise Exception("Failed to navigate after restart")
-
-                # Скролл страницы
-                print("Scrolling page...")
-                for i in range(1, 11):
-                    browser.driver.execute_script(
-                        f"window.scrollTo(0, document.body.scrollHeight * {i / 10});")
-                    time.sleep(0.3)
-
-                # Получаем содержимое страницы
-                print("Extracting content...")
-                content = browser.wait.until(
-                    EC.presence_of_element_located((By.CLASS_NAME, 'products-page__list')))
-                html_content = content.get_attribute('innerHTML')
-
-                # Сохраняем страницу
-                print("Saving content...")
-                save_page_content(category_name, current_page, html_content)
-                print(f"Successfully saved page {current_page}")
-
-                # Проверяем наличие следующей страницы
-                try:
-                    # Ищем ссылку на следующую страницу
-                    next_page_link = browser.driver.find_element(
-                        By.CSS_SELECTOR, f'a.pagination-widget__page-link[href*="p={current_page + 1}"]')
-
-                    # Скроллим и кликаем
-                    browser.driver.execute_script("arguments[0].scrollIntoView(true);", next_page_link)
-                    time.sleep(0.5)
-                    browser.driver.execute_script("arguments[0].click();", next_page_link)
-
-                    # Ждем загрузки новой страницы
-                    browser.wait.until(EC.staleness_of(content))
-                    browser.wait.until(
-                        EC.presence_of_element_located((By.CLASS_NAME, 'products-page__list')))
-                    time.sleep(2)
-
-                    current_page += 1
-                    break
-
-                except NoSuchElementException:
-                    print("No more pages found in pagination")
-                    return
-
-                except Exception as e:
-                    print(f"Error navigating to next page: {str(e)}")
-                    raise
-
-            except Exception as e:
-                print(f"Attempt {attempt + 1} failed for page {current_page}: {str(e)}")
-                if attempt == MAX_RETRIES - 1:
-                    print(f"Max retries reached for page {current_page}, skipping...")
-                    current_page += 1
-                    break
-
-                print("Waiting before retry...")
-                time.sleep(5)
-                browser.restart_if_needed()
-
-def parse_arguments():
-    parser = argparse.ArgumentParser(description="DNS-shop scraper")
-    parser.add_argument('--start', type=int, default=1, help='Start page number')
-    parser.add_argument('--end', type=int, help='End page number')
-    parser.add_argument('--no-resume', action='store_true', help='Disable resume feature')
-    return parser.parse_args()
 
 def main():
-    args = parse_arguments()
+    print("=" * 60)
+    print("DNS Shop Scraper - Single File Mode")
+    print(f"Scroll count: {SCROLL_TIMES}")
+    print(f"Scroll pause: {SCROLL_PAUSE} sec")
+    print(f"Output file: {OUTPUT_FILE}")
+    print("=" * 60)
 
-    start_page = args.start
-    end_page = args.end
-    resume = not args.no_resume
-
-    run_params = {
-        'start_page': start_page,
-        'end_page': end_page,
-        'resume': resume,
-        'timestamp': time.strftime('%Y-%m-%d %H:%M:%S')
-    }
-
-    # Сохраняем параметры запуска
-    with open(PARAMS_LOG, 'w') as f:
-        json.dump(run_params, f, indent=2)
-
-    print("Initializing browser session...")
-    browser = BrowserSession()
+    browser = None
 
     try:
+        browser = BrowserSession()
+
         for param in params:
-            try:
-                scrape_category(
-                    browser, param,
-                    start_page=start_page,
-                    end_page=end_page,
-                    resume=resume
-                )
-            except Exception as e:
-                print(f"\n{'!' * 50}")
-                print(f"Critical error processing category {param['name']}: {str(e)}")
-                traceback.print_exc()
-                print(f"{'!' * 50}\n")
-                continue
+            success = scrape_category(browser, param, OUTPUT_FILE)
+            if success:
+                print("\n✅ Scraping completed successfully!")
+                break
+            else:
+                print("\n❌ Scraping failed")
 
     except KeyboardInterrupt:
-        print("\nScript interrupted by user")
+        print("\n\n⚠️ Interrupted by user")
     except Exception as e:
-        print(f"\n{'!' * 50}")
-        print(f"Fatal error: {str(e)}")
+        print(f"\n❌ Fatal error: {str(e)}")
+        import traceback
         traceback.print_exc()
-        print(f"{'!' * 50}\n")
     finally:
-        print("Closing browser session...")
-        browser.close()
-        print("Done.")
+        if browser:
+            print("\nClosing browser...")
+            browser.close()
+            print("Done.")
 
 
 if __name__ == "__main__":

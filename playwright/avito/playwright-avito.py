@@ -2,70 +2,54 @@ import asyncio
 from playwright.async_api import async_playwright
 import os
 
-
 async def main():
+    # Директория для сохранения HTML
     output_dir = 'res'
     os.makedirs(output_dir, exist_ok=True)
 
     async with async_playwright() as p:
         browser = await p.chromium.launch(headless=False)
-        context = await browser.new_context()
+        context = await browser.new_context(
+            user_agent='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36'
+        )
         page = await context.new_page()
 
-        await page.goto('https://www.avito.ru/moskva/nedvizhimost')
-        await page.wait_for_timeout(2000)
+        # Открываем страницу с недвижимостью
+        await page.goto('https://www.avito.ru/moskva/nedvizhimost', timeout=60000, wait_until='domcontentloaded')
+        await page.wait_for_timeout(5000)
 
-        show_more_element = await page.wait_for_selector('xpath=//*[starts-with(normalize-space(), "Показать больше")]',
-                                                         timeout=3000)
-        await show_more_element.click()
-        await page.wait_for_timeout(2000)
-        iter = 1
+        iter_num = 1
         while True:
-            # Подождем немного после загрузки
             await page.wait_for_timeout(3000)
 
-            # Прокрутим вниз для загрузки товаров
+            # Прокрутка страницы для загрузки объявлений
             for _ in range(5):
-                await page.mouse.wheel(0, 500)
-                await page.wait_for_timeout(1000)
+                await page.mouse.wheel(0, 800)
+                await page.wait_for_timeout(1500)
 
-            # Сохраним HTML контент с текущей страницы
-            content_element = await page.query_selector('#bx_serp-item-list')
-            if content_element:
-                content_html = await content_element.inner_html()
-                with open(os.path.join(output_dir, f'avito{iter}.html'), 'w', encoding='utf-8') as file:
-                    file.write(content_html)
-                print(f'===> Saved page {iter}')
-            else:
-                print(f'===> No products found on page {iter}')
-                break
+            # Сохраняем HTML
+            page_html = await page.content()
+            file_path = os.path.join(output_dir, f'avito{iter_num}.html')
+            with open(file_path, 'w', encoding='utf-8') as file:
+                file.write(page_html)
+            print(f'Сохранен файл {iter_num}: {file_path}')
 
+            # Пагинация
             try:
-                # Найдём текущую активную страницу
-                current_page = await page.query_selector('[aria-label="Пагинация"] [aria-current="page"]')
-                current_page_number = await current_page.get_attribute('data-marker')
-                if current_page_number:
-                    num = int(current_page_number.split('(')[-1].rstrip(')'))
-                    next_marker = f'pagination-button/page({num + 1})'
-
-                    # Ищем ссылку на следующую страницу
-                    next_page_link = await page.query_selector(f'[data-marker="{next_marker}"]')
-                    if next_page_link:
-                        await next_page_link.click()
-                        iter += 1
-                        await page.wait_for_timeout(3000)
-                        continue
-                    else:
-                        print('===> No next page link found')
-                        break
+                next_button = await page.query_selector('[data-marker="pagination-button/next"]')
+                if next_button:
+                    await next_button.click()
+                    iter_num += 1
+                    await page.wait_for_timeout(3000)
                 else:
-                    print('===> Could not parse current page number')
+                    print('Кнопка "Далее" не найдена, завершаем сбор')
                     break
             except Exception as e:
-                print('===> Pagination error:', e)
+                print(f'Ошибка пагинации: {e}')
                 break
 
+        print(f'\n Сбор HTML завершен! Сохранено {iter_num} файлов в {output_dir}')
         await browser.close()
 
-
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
