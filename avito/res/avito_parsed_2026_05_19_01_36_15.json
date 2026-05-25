@@ -1,0 +1,352 @@
+[
+  {
+    "name": "2-к. квартира, 100 м² (Турция)",
+    "price": 6978159,
+    "location": "",
+    "metro": "",
+    "img_url": "https://80.img.avito.st/image/1/1.VKkw6La1-EBuThJHFLk2oAhI-kCOQxJHbk76Qg.YAxrSgBWg_xBDqhMPjyvFxm2JBR-LQZou_GanBXj-yY"
+  },
+  {
+    "name": "Машиноместо",
+    "price": 1750000,
+    "location": "Москва, Физтех",
+    "metro": "осква",
+    "img_url": "https://20.img.avito.st/image/1/1.HXiSSba1sZHM71uWpA1pCavps5Es4luWzO-zkw.tRwTcMvgUNGMSn4bEHMkPe7KwaWoQ9BZzrnxHIouTVA?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "2-к. квартира, 46,8 м², 10/12 эт.",
+    "price": 15290000,
+    "location": "Москва, Сетунь",
+    "metro": "осква",
+    "img_url": "https://m70.img.avito.st/image/1/1.eAzyGLa11OWsvj7ijnEIecu41uVMsz7irL7W5w.3hUIy2uL6KIysd3mx4h4wCp7jEI8LN1v2YMhRQxDP4g"
+  },
+  {
+    "name": "Участок 5 сот. (ИЖС)",
+    "price": 6200000,
+    "location": "д. Жабкино, КП Старт, Варшавское шоссе, 2 км",
+    "metro": "",
+    "img_url": "https://50.img.avito.st/image/1/1.IpKqzra1jnv0aGR84sZzqpJujHsUZWR89GiMeQ.gBYnkTmsgU-No7urTBN4Hx_9P-ROjeEGbVGypMQSVUw"
+  },
+  {
+    "name": "Аренда (ПСН) пл. 61.2 м2 м. Стрешнево в сао в",
+    "price": 220000,
+    "location": "Москва, Стрешнево",
+    "metro": "осква",
+    "img_url": "https://80.img.avito.st/image/1/1.AI4QxLa1rGdOYkZgHPRT8ylkrmeub0ZgTmKuZQ.M1iJFNh5Q-vE8-M5piJNtSlxoJWSxlgLuiM4XKFMPmI"
+  },
+  {
+    "name": "Офис",
+    "price": 700000,
+    "location": "Москва, Марксистская",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.F0aM37a1u6_SeVGortMCMbV_ua8ydFGo0nm5rQ.YXfdsm5s54BpnSQHY1gl-wY5eTabmqM6hudL8oVGEPs"
+  },
+  {
+    "name": "Дом 524 м² на участке 6,9 сот.",
+    "price": 138000000,
+    "location": "Москва, Калужское шоссе, 8 км",
+    "metro": "осква",
+    "img_url": "https://10.img.avito.st/image/1/1.aJlDhLa1xHAdIi53H4FR4XokxnD9Ly53HSLGcg.WvL_xW1QJEx3l41mxLZTV11nkG5YiPNv_e0khtBi0kw?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Гараж, 20 м²",
+    "price": 10000,
+    "location": "Москва, Измайлово",
+    "metro": "осква",
+    "img_url": "https://m70.img.avito.st/image/1/1.IIzmZra1jGW4wGZiqmZf_N_GjmVYzWZiuMCOZw.E4arnQVx5AGeT58v1w2n3kZeFEjl9ZEgDGxZ6SwZFLI"
+  },
+  {
+    "name": "Свободного назначения, 27 м²",
+    "price": 89000,
+    "location": "Москва, Ломоносовский проспект",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.kks_d7a1PqJh0dSlFwGlOwbXPKKB3NSlYdE8oA.nswuxIvbO4bpDXIvttDUxwUAG9J71ccz_U2GUG5RggM"
+  },
+  {
+    "name": "Дом 560 м² на участке 12 сот.",
+    "price": 260000000,
+    "location": "д. Немчиново, Сколковское шоссе, 4 км",
+    "metro": "чиново",
+    "img_url": "https://50.img.avito.st/image/1/1.yuctm7a1Zg5zPYwJNYDgzxc7ZA6TMIwJcz1kDA.PeK6HT9bmh6R0_IXTxxuAhkTQITFg0u6i3NVsjgbX4A"
+  },
+  {
+    "name": "Продам помещение свободного назначения, 96 м²",
+    "price": 50000000,
+    "location": "Москва, Москва-Товарная",
+    "metro": "осква",
+    "img_url": "https://50.img.avito.st/image/1/1.Di0r0ra1osR1dEjDO55nXhJyoMSVeUjDdXSgxg.nUTr06yfKPt93xu4GOCuR66202br0b_HhytYMzvEdto"
+  },
+  {
+    "name": "Комната 12 м² в 2-к., 9/17 эт.",
+    "price": 35000,
+    "location": "Москва, Очаково",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.kJVRpba1PHwPA9Z7fZ-48GgFPnzvDtZ7DwM-fg.9LFYodLgvCBDQwZXt5_Hb56qb4v92jgEryfHuo1WaOc?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Комната в 4-к., 4/5 эт.",
+    "price": 30000,
+    "location": "Москва, Алексеевская",
+    "metro": "осква",
+    "img_url": "https://50.img.avito.st/image/1/1.Aj9jCra1rtY9rETRazYPT1qqrNbdoUTRPays1A.NT08v6KB1jCAbeMddOMkLa2D-hbAv9tXqfAQzlqSlM4"
+  },
+  {
+    "name": "1-к. квартира, 42,7 м², 5/5 эт.",
+    "price": 16500000,
+    "location": "Москва, Царицыно",
+    "metro": "осква",
+    "img_url": "https://60.img.avito.st/image/1/1.hAnC-7a1KOCcXcLnxs3SfPtbKuB8UMLnnF0q4g.itR28ixvQNcLuAXr2YtKK36osCu7PTusB_wKGqrPfnE"
+  },
+  {
+    "name": "1-к. квартира, 49 м² (Турция)",
+    "price": 4329822,
+    "location": "",
+    "metro": "",
+    "img_url": "https://60.img.avito.st/image/1/1.6EWAP7a1RKzema6r3CDcbL2fRqw-lK6r3plGrg.E-qkiyT44IVPz7d3wEUexGQvsV7teVXEnYizBLHOXwY"
+  },
+  {
+    "name": "Дом 169 м² (Кипр)",
+    "price": 81551974,
+    "location": "",
+    "metro": "",
+    "img_url": "https://w40.img.avito.st/image/1/1.0Yy147a1fWXrRZdim6zGpI9Df2ULSJdi60V_Zw.w6Y0ih84Q_9AoD6LsMNSWoej9zK3ddMeXGIf7vvB_L8"
+  },
+  {
+    "name": "Таунхаус 359,5 м² на участке 3 сот.",
+    "price": 279999999,
+    "location": "Москва, Народное Ополчение",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.idB_0ra1JTkhdM8-Ydj92kdyJznBec8-IXQnOw.87tDpg2CNzs1s-hemnVblTfFUbqEIKfQ84Nek2hXSpI"
+  },
+  {
+    "name": "Квартира (Испания)",
+    "price": 7000,
+    "location": "",
+    "metro": "",
+    "img_url": "https://10.img.avito.st/image/1/1.kdoNN7a2PTNTkdc0I221jKmUPTmzfDrZvpQ_.IoBzzYwcwib4wHijYXqT19SL1hO4RXCucGi2Qqyg1Ak?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "1-к. квартира, 46,4 м², 14/19 эт.",
+    "price": 15300000,
+    "location": "Зеленоград, Зеленоград-Крюково",
+    "metro": "",
+    "img_url": "https://50.img.avito.st/image/1/1.enJn7ra11ps5SDycH987B15O1JvZRTycOUjUmQ.NJZ3lFsswc_fmMFlluh51THq4ncyP8pMCMqFXqRkxfA"
+  },
+  {
+    "name": "Машиноместо, 15 м²",
+    "price": 10000,
+    "location": "Москва, Серп и Молот",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.LCdw17a1gM4ucWrJJMdSUEl3gs7OfGrJLnGCzA.-P_gF7ZPxLplXSG246oPgEkfeuwzP9qY2wrae-uDEWA"
+  },
+  {
+    "name": "2-к. квартира, 64 м², 9/19 эт.",
+    "price": 20000000,
+    "location": "Москва, Некрасовка",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.otqvd7a1DjPx0eQ052XdqpbXDDMR3OQ08dEMMQ.QoLo1-fDsQvt3coL6g7Nu1i478BH93tUgp1uEIuijJ0"
+  },
+  {
+    "name": "Сдам офисное помещение, 9.5 м²",
+    "price": 14000,
+    "location": "Москва, Электрозаводская",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.mVLX7ba1NbuJS9-86bPoIe5NN7tpRt-8iUs3uQ.zZQdk6nDev06HHmFLpNgl2UgqyMkROME02Qsu3x9DCs"
+  },
+  {
+    "name": "Койко-место 18 м² в 3-к., 11/11 эт.",
+    "price": 25000,
+    "location": "Москва, Братиславская",
+    "metro": "осква",
+    "img_url": "https://90.img.avito.st/image/1/1.C9gxXLa1pzFv-k02K2wTvwj8pTGP9002b_qlMw.xRIiA3ZldPqCOHQXfDfkFktZ9KAxqoNhssEG92D93e0"
+  },
+  {
+    "name": "Дом 90 м² на участке 3 сот.",
+    "price": 180000,
+    "location": "с. Алабушево, Пятницкое шоссе, 24 км",
+    "metro": "",
+    "img_url": "https://90.img.avito.st/image/1/1.vhU927a1Evxjffj7TfWeBgZ7EPyDcPj7Y30Q_g.NvafRfUZncy86IlzXMlEzTvUjjT2mrI6srUwealf360"
+  },
+  {
+    "name": "1й этаж с отдельным входом возле метро Павелецкая",
+    "price": 14400000,
+    "location": "Москва, Павелецкая",
+    "metro": "осква",
+    "img_url": "https://30.img.avito.st/image/1/1.V8zbmba1-yWFPxEi-ZQtueI5-SVlMhEihT_5Jw.DmIGChJMVKgT_tEbjoPw1l6A7OCnYEFmBALTNIY71hI?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Свободного назначения, 8 м²",
+    "price": 16000,
+    "location": "Москва, Филёвский парк",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.B9EVjLa1qzhLKkE_F4RsoCwsqTirJ0E_SyqpOg.ZpIBXT4cy77Ki4YSeQzn7QqkiJ30_dawiHC7VRMELBI"
+  },
+  {
+    "name": "Дом 700 м² на участке 20 сот.",
+    "price": 40000000,
+    "location": "Москва, Варшавское шоссе, 5 км",
+    "metro": "осква",
+    "img_url": "https://90.img.avito.st/image/1/1.QSwrFLa17cV1sgfCJX19exC078WVvwfCdbLvxw.1M_AyW_qrETyOxkRCoFvulMLfuwXjw6-Cl_9-eNikp8"
+  },
+  {
+    "name": "Машиноместо",
+    "price": 25000,
+    "location": "Москва, ЗИЛ",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.V5WZmba1-3zHPxF7u5BI4qA5-XwnMhF7xz_5fg.hRIf51eCphWqUWdRt7FSKrLQYEJZUlPgSCSDRoTRkBM?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Машиноместо, 15 м²",
+    "price": 13000,
+    "location": "Москва, Щукинская",
+    "metro": "осква",
+    "img_url": "https://80.img.avito.st/image/1/1.90SMV7a1W63S8bGq7lzCN7X3Wa0y_LGq0vFZrw.IWEyC8xAZ2EzO4Tw7JAqVgN3Pc6o1DtamQx8gLvLinM"
+  },
+  {
+    "name": "Коттедж 303 м² на участке 15 сот.",
+    "price": 129950000,
+    "location": "Москва, Сколковское шоссе, 1 км",
+    "metro": "осква",
+    "img_url": "https://60.img.avito.st/image/1/1.qrHUura1BliKHOxfjOj8z-waBFhqEexfihwEWg.sf-6d1nAMkgBYl7YNnwbHQZwLhhmaveHPlpmjYz5lOY"
+  },
+  {
+    "name": "2-к. квартира, 70 м² (Турция)",
+    "price": 5759083,
+    "location": "",
+    "metro": "",
+    "img_url": "https://50.img.avito.st/image/1/1.6zysIra1R9XyhK3S9k2sFZGCRdUSia3S8oRF1w.tmPbtWpEBJB4vC0qQniQUUlKktXvzz0LB8thjI-hJEY"
+  },
+  {
+    "name": "Офис в цао с ремонтом и юр. адресом Чистые пруды",
+    "price": 70000,
+    "location": "Москва, Сретенский бульвар",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.7BHDiLa1QPidLqr_l6fcYfooQvh9I6r_nS5C-g.C1QkworjSe0LJxl271xj3H0pN9A23U8niRtqGA9U3EE?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Комната 20,2 м² в 4-к., 5/5 эт.",
+    "price": 6500000,
+    "location": "Москва, Перово",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.5QbPh7a1Se-RIaPoicD7ePYnS-9xLKPokSFL7Q.GqY4tGvKrSBaXm914_L6jizoeeG7SMiMUa0-g9RXcJI"
+  },
+  {
+    "name": "Участок 20 сот. (промназначения)",
+    "price": 150000,
+    "location": "Москва, Перерва",
+    "metro": "осква",
+    "img_url": "https://80.img.avito.st/image/1/1.CmPb87a1poqFVUyNw4dFKuFTpIplWEyNhVWkiA.T1nj_BiolbrfYUftYU3l5AYGJwkchKz12ItnVS533Qc"
+  },
+  {
+    "name": "4-к. квартира, 220 м² (Турция)",
+    "price": 13872243,
+    "location": "",
+    "metro": "",
+    "img_url": "https://00.img.avito.st/image/1/1.ZjoqeLa1ytN03iDUal0NIxvYyNOU0yDUdN7I0Q.vF6a3FgBwldIao7o5qlUTHOvejy8W_lIX0160Y9IJ2c?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Комната 12 м² в 3-к., 3/9 эт.",
+    "price": 30000,
+    "location": "Москва, Сходненская",
+    "metro": "осква",
+    "img_url": "https://10.img.avito.st/image/1/1.LEVE17a1gKwacWqrEPMWM313gqz6fGqrGnGCrg.J8_8KpkVG7AbM7QsZR6NmnI5bXfXicyQzwC4GgIi_cA?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Участок 5 сот. (ИЖС)",
+    "price": 5995000,
+    "location": "д. Жабкино, КП Старт, Варшавское шоссе, 2 км",
+    "metro": "",
+    "img_url": "https://80.img.avito.st/image/1/1.9jk8Fba1WtBis7DXXAqnNge1WNCCvrDXYrNY0g.k12ZpO7870z2BBbiMcVDR5OC1tLHBxwNar9_SgDTN_U"
+  },
+  {
+    "name": "Комната 14 м² в 3-к., 6/16 эт.",
+    "price": 7200000,
+    "location": "Москва, Домодедовская",
+    "metro": "осква",
+    "img_url": "https://60.img.avito.st/image/1/1.dJ618ba12HfrVzJw0fQV7oxR2ncLWjJw61fadQ.5e7-xjqICo3t_yj14VID87XQFEKyvCCOMi_b-NlxMPI"
+  },
+  {
+    "name": "2-к. квартира, 43 м², 7/9 эт.",
+    "price": 80000,
+    "location": "Москва, Багратионовская",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.EMz5KLa1vCWnjlYi1UwGu8CIviVHg1Yip46-Jw.1hTkiiN30lH2SwqKMBHAIfAAO9EZDyc3wfAGAh6rjPc?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Участок 45 сот. (промназначения)",
+    "price": 15750000,
+    "location": "д. Дурыкино, Ленинградское шоссе, 26 км",
+    "metro": "",
+    "img_url": "https://10.img.avito.st/image/1/1.mpOkGra1Nnr6vNx9nGD0z5y6NHoasdx9-rw0eA.QjR1lNTCpwPamLU_heu56gKzrAotvslWc5eByaFRdGY?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Дом 164,4 м² на участке 3 сот.",
+    "price": 26793000,
+    "location": "пгт. Измайлово, КП Кленовый, Варшавское шоссе, 2 км",
+    "metro": "айлово",
+    "img_url": "https://90.img.avito.st/image/1/1.5_H6Vra1Sxik8KEfuGmzh8H2SRhE_aEfpPBJGg.KDt8w_v4Fe2jnDhRmXe8JlGipMpGqRDlf0ylmGA36vM"
+  },
+  {
+    "name": "2-к. квартира, 54 м² (Турция)",
+    "price": 5128527,
+    "location": "",
+    "metro": "",
+    "img_url": "https://90.img.avito.st/image/1/1.w_q157a1bxPrQYUUv5Cg_PxGbRMLTIUU60FtEQ.aiYTPrnKQJ9v7jJtMcGeVyRbxnRbLWuENEku9jz8iKw"
+  },
+  {
+    "name": "2-к. квартира, 65 м² (Кипр)",
+    "price": 9510235,
+    "location": "",
+    "metro": "",
+    "img_url": "https://50.img.avito.st/image/1/1.i38GcLa1J5ZY1s2RHDKJMjzQJZa4282RWNYllA.YexaFN3EQT-STaX-DwxM5ZjEJXvFqKdjvq01rg8Wwjs"
+  },
+  {
+    "name": "Участок 5 сот. (ИЖС)",
+    "price": 7500000,
+    "location": "д. Жабкино, КП Сад, Варшавское шоссе, 2 км",
+    "metro": "",
+    "img_url": "https://80.img.avito.st/image/1/1.U3vHBra1_5KZoBWV7V9QDfym_ZJ5rRWVmaD9kA.HnV4UQVfTlcSt3YDr6D5XByE8ve4j2YYLw6A9OS-0CI"
+  },
+  {
+    "name": "3-к. апартаменты, 192 м², 57/85 эт.",
+    "price": 127000000,
+    "location": "Москва, Москва-Сити",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.Ji8rura1isZ1HGDBa_4PWhIaiMaVEWDBdRyIxA.9d-_nwbrxFv3lQCucnDXRpoq_SDDGgKpJ2Y2Tu1kG7Q"
+  },
+  {
+    "name": "Машиноместо, 15 м²",
+    "price": 7500,
+    "location": "Москва, Балтийская",
+    "metro": "осква",
+    "img_url": "https://50.img.avito.st/image/1/1.r9CL0ra1AznVdOk-2eS9rbJyATk1eek-1XQBOw.RWoIp4Ll6gLUFxq2G7UwxqSz36CRkF71U3ULQBEpf5E"
+  },
+  {
+    "name": "Участок 5 сот. (промназначения)",
+    "price": 25000,
+    "location": "Москва, Багратионовская",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.7RcClra1Qf5cMKv5VL2_Wzo2Q_68Pav5XDBD_A.rXFCWDCjwHxYPlzpaOQUkwfSYjrd_5p8LM4Dhs0Orvc"
+  },
+  {
+    "name": "Аукцион: Машиноместо, 18 м²",
+    "price": 2784210,
+    "location": "Москва, Кожуховская",
+    "metro": "осква",
+    "img_url": "https://90.img.avito.st/image/1/1._uL-P7a1UgugmbgMjkjThsefUAtAlLgMoJlQCQ.CFuNYskbP1O9DG9uPMewVjeP0_Oq0pL4uoJgH5Dq7gA"
+  },
+  {
+    "name": "3-к. квартира, 60 м², 5/25 эт.",
+    "price": 140000,
+    "location": "Москва, Стахановская",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.w7flBra1b167oIVZ71nzwdymbV5brYVZu6BtXA.kiebXeot_TZRZjfCOS6ENrYXK4jsP_elDNH9VTkgsJ8?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ"
+  },
+  {
+    "name": "Сдам помещение свободного назначения, 195 м²",
+    "price": 550000,
+    "location": "Москва, Медведково",
+    "metro": "осква",
+    "img_url": "https://60.img.avito.st/image/1/1.DhgrIba1ovF1h0j2Ozl-ZBKBoPGVikj2dYeg8w.zu0IuZa2FwDg__eMRwX0hlT7oAZ_tD7WjJAHODhWEWc"
+  }
+]
