@@ -3,11 +3,9 @@ from pathlib import Path
 
 
 def load_all_data():
-    """Загружает все JSON файлы из ваших папок"""
     all_data = []
     root_dir = Path(__file__).parent
 
-    # Поиск в ваших существующих папках
     search_paths = [
         (root_dir / 'avito', 'avito'),
         (root_dir / 'ozon', 'ozon'),
@@ -22,8 +20,6 @@ def load_all_data():
             continue
 
         json_files = list(folder.glob('*.json'))
-
-        # Ищем в подпапке res
         res_folder = folder / 'res'
         if res_folder.exists():
             json_files.extend(res_folder.glob('*.json'))
@@ -44,12 +40,11 @@ def load_all_data():
             except Exception as e:
                 print(f"    Ошибка: {e}")
 
-    print(f"\n Загружено {len(all_data)} записей")
+    print(f"\nЗагружено {len(all_data)} записей")
     return all_data
 
 
 def save_labeled_data(data, filename='classifier/data/labeled/labeled_data.json'):
-    """Сохраняет размеченные данные"""
     root_dir = Path(__file__).parent
     full_path = root_dir / filename
     full_path.parent.mkdir(parents=True, exist_ok=True)
@@ -60,7 +55,6 @@ def save_labeled_data(data, filename='classifier/data/labeled/labeled_data.json'
 
 
 def load_labeled_data(filename='classifier/data/labeled/labeled_data.json'):
-    """Загружает размеченные данные"""
     root_dir = Path(__file__).parent
     full_path = root_dir / filename
 
