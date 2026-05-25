@@ -1,0 +1,608 @@
+[
+  {
+    "name": "2-к. квартира, 100 м² (Турция)",
+    "price": 6978159,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Машиноместо",
+    "price": 1750000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "2-к. квартира, 46,8 м², 10/12 эт.",
+    "price": 15290000,
+    "platform": "avito",
+    "segment": "Средний"
+  },
+  {
+    "name": "Участок 5 сот. (ИЖС)",
+    "price": 6200000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Аренда (ПСН) пл. 61.2 м2 м. Стрешнево в сао в",
+    "price": 220000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Офис",
+    "price": 700000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Дом 524 м² на участке 6,9 сот.",
+    "price": 138000000,
+    "platform": "avito",
+    "segment": "Люкс"
+  },
+  {
+    "name": "Гараж, 20 м²",
+    "price": 10000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Свободного назначения, 27 м²",
+    "price": 89000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Дом 560 м² на участке 12 сот.",
+    "price": 260000000,
+    "platform": "avito",
+    "segment": "Люкс"
+  },
+  {
+    "name": "Продам помещение свободного назначения, 96 м²",
+    "price": 50000000,
+    "platform": "avito",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Комната 12 м² в 2-к., 9/17 эт.",
+    "price": 35000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Комната в 4-к., 4/5 эт.",
+    "price": 30000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "1-к. квартира, 42,7 м², 5/5 эт.",
+    "price": 16500000,
+    "platform": "avito",
+    "segment": "Средний"
+  },
+  {
+    "name": "1-к. квартира, 49 м² (Турция)",
+    "price": 4329822,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Дом 169 м² (Кипр)",
+    "price": 81551974,
+    "platform": "avito",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Таунхаус 359,5 м² на участке 3 сот.",
+    "price": 279999999,
+    "platform": "avito",
+    "segment": "Люкс"
+  },
+  {
+    "name": "Квартира (Испания)",
+    "price": 7000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "1-к. квартира, 46,4 м², 14/19 эт.",
+    "price": 15300000,
+    "platform": "avito",
+    "segment": "Средний"
+  },
+  {
+    "name": "Машиноместо, 15 м²",
+    "price": 10000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "2-к. квартира, 64 м², 9/19 эт.",
+    "price": 20000000,
+    "platform": "avito",
+    "segment": "Средний"
+  },
+  {
+    "name": "Сдам офисное помещение, 9.5 м²",
+    "price": 14000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Койко-место 18 м² в 3-к., 11/11 эт.",
+    "price": 25000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Дом 90 м² на участке 3 сот.",
+    "price": 180000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "1й этаж с отдельным входом возле метро Павелецкая",
+    "price": 14400000,
+    "platform": "avito",
+    "segment": "Средний"
+  },
+  {
+    "name": "Свободного назначения, 8 м²",
+    "price": 16000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Дом 700 м² на участке 20 сот.",
+    "price": 40000000,
+    "platform": "avito",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Машиноместо",
+    "price": 25000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Машиноместо, 15 м²",
+    "price": 13000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Коттедж 303 м² на участке 15 сот.",
+    "price": 129950000,
+    "platform": "avito",
+    "segment": "Люкс"
+  },
+  {
+    "name": "2-к. квартира, 70 м² (Турция)",
+    "price": 5759083,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Офис в цао с ремонтом и юр. адресом Чистые пруды",
+    "price": 70000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Комната 20,2 м² в 4-к., 5/5 эт.",
+    "price": 6500000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Участок 20 сот. (промназначения)",
+    "price": 150000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "4-к. квартира, 220 м² (Турция)",
+    "price": 13872243,
+    "platform": "avito",
+    "segment": "Средний"
+  },
+  {
+    "name": "Комната 12 м² в 3-к., 3/9 эт.",
+    "price": 30000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Участок 5 сот. (ИЖС)",
+    "price": 5995000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Комната 14 м² в 3-к., 6/16 эт.",
+    "price": 7200000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "2-к. квартира, 43 м², 7/9 эт.",
+    "price": 80000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Участок 45 сот. (промназначения)",
+    "price": 15750000,
+    "platform": "avito",
+    "segment": "Средний"
+  },
+  {
+    "name": "Дом 164,4 м² на участке 3 сот.",
+    "price": 26793000,
+    "platform": "avito",
+    "segment": "Средний"
+  },
+  {
+    "name": "2-к. квартира, 54 м² (Турция)",
+    "price": 5128527,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "2-к. квартира, 65 м² (Кипр)",
+    "price": 9510235,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Участок 5 сот. (ИЖС)",
+    "price": 7500000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "3-к. апартаменты, 192 м², 57/85 эт.",
+    "price": 127000000,
+    "platform": "avito",
+    "segment": "Люкс"
+  },
+  {
+    "name": "Машиноместо, 15 м²",
+    "price": 7500,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Участок 5 сот. (промназначения)",
+    "price": 25000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Аукцион: Машиноместо, 18 м²",
+    "price": 2784210,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "3-к. квартира, 60 м², 5/25 эт.",
+    "price": 140000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Сдам помещение свободного назначения, 195 м²",
+    "price": 550000,
+    "platform": "avito",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "/ Моноблок для работы и учёбы i7-16 512ГБ 23 8\"",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Моноблок для работы и учёбы i7-6600U 16ГБ 512ГБ 23.8\"",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Моноблок 24 дюйма Intel i7 4790 16 Гб RAM",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Моноблок компьютер для пик игровой 27\" Intel Core i7-3610QM",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Компьютер игровой с монитором RX580 8GB 16GB 256GB",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Моноблок изогнутый компьютер диагональ 27 игровой",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Компьютер игровой с монитором RX580 8GB 32GB 512GB",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Ноутбук для учебы и работы игровой 15.6\"12GB DDR5, SSD 512GB",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Моноблок компьютер для пик игровой 24\" Intel Core i7-3610QM",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Компьютер 23.8\" i3 1215U 8 256ГБ UHD Windows",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "/ Компьютер 27\" i7 1255U, 16 512ГБ Iris Xe Windows",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Компьютер 23.8\" i7 12700 15 512ГБ UHD Windows",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Ноутбук игровой TUF Gaming F17 Intel i5 16gb 512gb RTX 3050",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Intel Core i7 Ноутбук, 32 ГБ, SSD 2ТБ для работы и игр",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "/ Компьютер игровой i7 RX 580 8GB 16GB SSD 512GB Монитор 24\"",
+    "price": 0,
+    "platform": "wildberries",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Mini Intel  Core i5  12400,  DDR4 16ГБ, 512ГБ,  без операционной системы,  черный",
+    "price": 57740,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Неттоп  CHUWI LarkBox X Intel  Core i3  1220P,  DDR4 8ГБ, 256ГБ,  Windows 11 Pro,  черный и белый",
+    "price": 33990,
+    "platform": "citilink",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Неттоп  MSI Cubi 5 1M-464BRU Intel  Core 3  100U,  без операционной системы,  черный",
+    "price": 29990,
+    "platform": "citilink",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Неттоп  DIGMA PRO Minimax X5 Intel  Core i5  12600H,  DDR4 16ГБ, 512ГБ,  Windows 11 Pro,  серебристый",
+    "price": 55020,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  12400,  DDR4 16ГБ, 256ГБ,  FreeDOS,  черный",
+    "price": 54660,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Tactio 510B7GP Tower Intel  Core i7  14700F,  DDR5 32ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 219560,
+    "platform": "citilink",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i3  12100,  DDR4 8ГБ, 256ГБ,  FreeDOS,  черный",
+    "price": 43470,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  BLOODY BD-PC RAB84T2 AMD  Ryzen 7  7700,  DDR5 32ГБ, 1ТБ,  Windows 11 Home,  черный",
+    "price": 146990,
+    "platform": "citilink",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Компьютер  OSIO CyberLine C59i Intel  Core i5  12400F,  DDR4 16ГБ, 1ТБ,  без операционной системы,  черный",
+    "price": 79990,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i3  12100,  DDR4 16ГБ, 256ГБ,  FreeDOS,  черный",
+    "price": 50870,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Tactio 310H6SB Intel  Core i5  13400,  DDR5 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 66270,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  12400,  DDR4 16ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 62170,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Tactio 510B7GP Tower Intel  Core i7  14700F,  DDR5 32ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 165060,
+    "platform": "citilink",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Компьютер  BLOODY BD-PC CB76T2 Tower Intel  Core i7  14700F,  DDR5 32ГБ, 1ТБ,  Windows 11 Home,  черный",
+    "price": 203680,
+    "platform": "citilink",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  13400,  DDR4 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 66360,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  12400,  DDR4 32ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 69810,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  12400,  DDR4 32ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 64890,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  BLOODY BD-PC CB76T2 Tower Intel  Core i5  14400F,  DDR5 32ГБ, 1ТБ,  Windows 11 Home,  черный",
+    "price": 182300,
+    "platform": "citilink",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Компьютер  iRU Tactio 310H6SB Intel  Core i5  12400,  DDR4 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 57710,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Неттоп  MSI Cubi 5 1M-617XRU Intel  Core 5  120U,  DDR5 16ГБ, 512ГБ,  без операционной системы,  черный",
+    "price": 61990,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i7  12700,  DDR4 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 67370,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Tactio 310H6SEA Intel  Core i5  12400F,  DDR4 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 79320,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Tactio 520B6SB AMD  Ryzen 5  8600G,  DDR5 32ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 74160,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Неттоп  MSI Pro DP21 14M-237BRU Intel  Core i3  14100,  DDR5,  без операционной системы,  черный",
+    "price": 33990,
+    "platform": "citilink",
+    "segment": "Бюджетный"
+  },
+  {
+    "name": "Неттоп  HP ProDesk 400 G9 Mini Intel  Core i5  14500T,  DDR5 16ГБ, 256ГБ,  Windows 11 Pro,  черный",
+    "price": 82990,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Мини ПК  CHUWI AuBox AMD  Ryzen AI 9  365,  DDR5 32ГБ, 1ТБ,  Windows 11 Pro,  серебристый и черный",
+    "price": 94990,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Неттоп  MSI Cubi NUC AI 1UMG-060BRU Intel  Core Ultra 7  155H,  без операционной системы,  черный",
+    "price": 46990,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Strato 710Z7GP Tower Intel  Core i9  14900KF,  DDR5 64ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 345910,
+    "platform": "citilink",
+    "segment": "Люкс"
+  },
+  {
+    "name": "Неттоп  MSI Cubi Z AI 8M-026BRU AMD  Ryzen 9  8945HS,  без операционной системы",
+    "price": 47990,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Неттоп  MSI Pro DP21 14M-1054XRU Intel  Core i5  14400,  DDR5 16ГБ, 512ГБ,  без операционной системы,  черный",
+    "price": 80990,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  BLOODY BD-PC CZ79C3 Intel  Core i7  14700F,  DDR5 64ГБ, 1ТБ,  Windows 11 Home,  черный",
+    "price": 407820,
+    "platform": "citilink",
+    "segment": "Люкс"
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SM Tower Intel  Core i3  12100F,  DDR4 8ГБ, 256ГБ,  без операционной системы,  черный",
+    "price": 42470,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Мини ПК  MSI Pro DP80 A14TAG-207XRU Intel  Core i5  14400F,  DDR5 16ГБ, 512ГБ,  без операционной системы,  черный",
+    "price": 93990,
+    "platform": "citilink",
+    "segment": "Средний"
+  },
+  {
+    "name": "Компьютер  iRU Tactio 510B7GP Intel  Core i7  14700F,  DDR5 64ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 174170,
+    "platform": "citilink",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Компьютер  iRU Strato 710Z7GP Tower Intel  Core i7  14700K,  DDR5 64ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 187660,
+    "platform": "citilink",
+    "segment": "Премиум"
+  },
+  {
+    "name": "Неттоп  MSI Cubi 5 1M-460BRU Intel  Core 7  150U,  без операционной системы,  черный",
+    "price": 40990,
+    "platform": "citilink",
+    "segment": "Средний"
+  }
+]

@@ -1,0 +1,1266 @@
+[
+  {
+    "name": "2-к. квартира, 100 м² (Турция)",
+    "price": 6978159,
+    "location": "",
+    "metro": "",
+    "img_url": "https://80.img.avito.st/image/1/1.VKkw6La1-EBuThJHFLk2oAhI-kCOQxJHbk76Qg.YAxrSgBWg_xBDqhMPjyvFxm2JBR-LQZou_GanBXj-yY",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Машиноместо",
+    "price": 1750000,
+    "location": "Москва, Физтех",
+    "metro": "осква",
+    "img_url": "https://20.img.avito.st/image/1/1.HXiSSba1sZHM71uWpA1pCavps5Es4luWzO-zkw.tRwTcMvgUNGMSn4bEHMkPe7KwaWoQ9BZzrnxHIouTVA?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "2-к. квартира, 46,8 м², 10/12 эт.",
+    "price": 15290000,
+    "location": "Москва, Сетунь",
+    "metro": "осква",
+    "img_url": "https://m70.img.avito.st/image/1/1.eAzyGLa11OWsvj7ijnEIecu41uVMsz7irL7W5w.3hUIy2uL6KIysd3mx4h4wCp7jEI8LN1v2YMhRQxDP4g",
+    "platform": "avito",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Участок 5 сот. (ИЖС)",
+    "price": 6200000,
+    "location": "д. Жабкино, КП Старт, Варшавское шоссе, 2 км",
+    "metro": "",
+    "img_url": "https://50.img.avito.st/image/1/1.IpKqzra1jnv0aGR84sZzqpJujHsUZWR89GiMeQ.gBYnkTmsgU-No7urTBN4Hx_9P-ROjeEGbVGypMQSVUw",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Аренда (ПСН) пл. 61.2 м2 м. Стрешнево в сао в",
+    "price": 220000,
+    "location": "Москва, Стрешнево",
+    "metro": "осква",
+    "img_url": "https://80.img.avito.st/image/1/1.AI4QxLa1rGdOYkZgHPRT8ylkrmeub0ZgTmKuZQ.M1iJFNh5Q-vE8-M5piJNtSlxoJWSxlgLuiM4XKFMPmI",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Офис",
+    "price": 700000,
+    "location": "Москва, Марксистская",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.F0aM37a1u6_SeVGortMCMbV_ua8ydFGo0nm5rQ.YXfdsm5s54BpnSQHY1gl-wY5eTabmqM6hudL8oVGEPs",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Дом 524 м² на участке 6,9 сот.",
+    "price": 138000000,
+    "location": "Москва, Калужское шоссе, 8 км",
+    "metro": "осква",
+    "img_url": "https://10.img.avito.st/image/1/1.aJlDhLa1xHAdIi53H4FR4XokxnD9Ly53HSLGcg.WvL_xW1QJEx3l41mxLZTV11nkG5YiPNv_e0khtBi0kw?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Люкс",
+    "confidence": 0.9
+  },
+  {
+    "name": "Гараж, 20 м²",
+    "price": 10000,
+    "location": "Москва, Измайлово",
+    "metro": "осква",
+    "img_url": "https://m70.img.avito.st/image/1/1.IIzmZra1jGW4wGZiqmZf_N_GjmVYzWZiuMCOZw.E4arnQVx5AGeT58v1w2n3kZeFEjl9ZEgDGxZ6SwZFLI",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Свободного назначения, 27 м²",
+    "price": 89000,
+    "location": "Москва, Ломоносовский проспект",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.kks_d7a1PqJh0dSlFwGlOwbXPKKB3NSlYdE8oA.nswuxIvbO4bpDXIvttDUxwUAG9J71ccz_U2GUG5RggM",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Дом 560 м² на участке 12 сот.",
+    "price": 260000000,
+    "location": "д. Немчиново, Сколковское шоссе, 4 км",
+    "metro": "чиново",
+    "img_url": "https://50.img.avito.st/image/1/1.yuctm7a1Zg5zPYwJNYDgzxc7ZA6TMIwJcz1kDA.PeK6HT9bmh6R0_IXTxxuAhkTQITFg0u6i3NVsjgbX4A",
+    "platform": "avito",
+    "predicted_segment": "Люкс",
+    "confidence": 0.9
+  },
+  {
+    "name": "Продам помещение свободного назначения, 96 м²",
+    "price": 50000000,
+    "location": "Москва, Москва-Товарная",
+    "metro": "осква",
+    "img_url": "https://50.img.avito.st/image/1/1.Di0r0ra1osR1dEjDO55nXhJyoMSVeUjDdXSgxg.nUTr06yfKPt93xu4GOCuR66202br0b_HhytYMzvEdto",
+    "platform": "avito",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Комната 12 м² в 2-к., 9/17 эт.",
+    "price": 35000,
+    "location": "Москва, Очаково",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.kJVRpba1PHwPA9Z7fZ-48GgFPnzvDtZ7DwM-fg.9LFYodLgvCBDQwZXt5_Hb56qb4v92jgEryfHuo1WaOc?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Комната в 4-к., 4/5 эт.",
+    "price": 30000,
+    "location": "Москва, Алексеевская",
+    "metro": "осква",
+    "img_url": "https://50.img.avito.st/image/1/1.Aj9jCra1rtY9rETRazYPT1qqrNbdoUTRPays1A.NT08v6KB1jCAbeMddOMkLa2D-hbAv9tXqfAQzlqSlM4",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "1-к. квартира, 42,7 м², 5/5 эт.",
+    "price": 16500000,
+    "location": "Москва, Царицыно",
+    "metro": "осква",
+    "img_url": "https://60.img.avito.st/image/1/1.hAnC-7a1KOCcXcLnxs3SfPtbKuB8UMLnnF0q4g.itR28ixvQNcLuAXr2YtKK36osCu7PTusB_wKGqrPfnE",
+    "platform": "avito",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "1-к. квартира, 49 м² (Турция)",
+    "price": 4329822,
+    "location": "",
+    "metro": "",
+    "img_url": "https://60.img.avito.st/image/1/1.6EWAP7a1RKzema6r3CDcbL2fRqw-lK6r3plGrg.E-qkiyT44IVPz7d3wEUexGQvsV7teVXEnYizBLHOXwY",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Дом 169 м² (Кипр)",
+    "price": 81551974,
+    "location": "",
+    "metro": "",
+    "img_url": "https://w40.img.avito.st/image/1/1.0Yy147a1fWXrRZdim6zGpI9Df2ULSJdi60V_Zw.w6Y0ih84Q_9AoD6LsMNSWoej9zK3ddMeXGIf7vvB_L8",
+    "platform": "avito",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Таунхаус 359,5 м² на участке 3 сот.",
+    "price": 279999999,
+    "location": "Москва, Народное Ополчение",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.idB_0ra1JTkhdM8-Ydj92kdyJznBec8-IXQnOw.87tDpg2CNzs1s-hemnVblTfFUbqEIKfQ84Nek2hXSpI",
+    "platform": "avito",
+    "predicted_segment": "Люкс",
+    "confidence": 0.9
+  },
+  {
+    "name": "Квартира (Испания)",
+    "price": 7000,
+    "location": "",
+    "metro": "",
+    "img_url": "https://10.img.avito.st/image/1/1.kdoNN7a2PTNTkdc0I221jKmUPTmzfDrZvpQ_.IoBzzYwcwib4wHijYXqT19SL1hO4RXCucGi2Qqyg1Ak?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "1-к. квартира, 46,4 м², 14/19 эт.",
+    "price": 15300000,
+    "location": "Зеленоград, Зеленоград-Крюково",
+    "metro": "",
+    "img_url": "https://50.img.avito.st/image/1/1.enJn7ra11ps5SDycH987B15O1JvZRTycOUjUmQ.NJZ3lFsswc_fmMFlluh51THq4ncyP8pMCMqFXqRkxfA",
+    "platform": "avito",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Машиноместо, 15 м²",
+    "price": 10000,
+    "location": "Москва, Серп и Молот",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.LCdw17a1gM4ucWrJJMdSUEl3gs7OfGrJLnGCzA.-P_gF7ZPxLplXSG246oPgEkfeuwzP9qY2wrae-uDEWA",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "2-к. квартира, 64 м², 9/19 эт.",
+    "price": 20000000,
+    "location": "Москва, Некрасовка",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.otqvd7a1DjPx0eQ052XdqpbXDDMR3OQ08dEMMQ.QoLo1-fDsQvt3coL6g7Nu1i478BH93tUgp1uEIuijJ0",
+    "platform": "avito",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Сдам офисное помещение, 9.5 м²",
+    "price": 14000,
+    "location": "Москва, Электрозаводская",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.mVLX7ba1NbuJS9-86bPoIe5NN7tpRt-8iUs3uQ.zZQdk6nDev06HHmFLpNgl2UgqyMkROME02Qsu3x9DCs",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Койко-место 18 м² в 3-к., 11/11 эт.",
+    "price": 25000,
+    "location": "Москва, Братиславская",
+    "metro": "осква",
+    "img_url": "https://90.img.avito.st/image/1/1.C9gxXLa1pzFv-k02K2wTvwj8pTGP9002b_qlMw.xRIiA3ZldPqCOHQXfDfkFktZ9KAxqoNhssEG92D93e0",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Дом 90 м² на участке 3 сот.",
+    "price": 180000,
+    "location": "с. Алабушево, Пятницкое шоссе, 24 км",
+    "metro": "",
+    "img_url": "https://90.img.avito.st/image/1/1.vhU927a1Evxjffj7TfWeBgZ7EPyDcPj7Y30Q_g.NvafRfUZncy86IlzXMlEzTvUjjT2mrI6srUwealf360",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "1й этаж с отдельным входом возле метро Павелецкая",
+    "price": 14400000,
+    "location": "Москва, Павелецкая",
+    "metro": "осква",
+    "img_url": "https://30.img.avito.st/image/1/1.V8zbmba1-yWFPxEi-ZQtueI5-SVlMhEihT_5Jw.DmIGChJMVKgT_tEbjoPw1l6A7OCnYEFmBALTNIY71hI?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Свободного назначения, 8 м²",
+    "price": 16000,
+    "location": "Москва, Филёвский парк",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.B9EVjLa1qzhLKkE_F4RsoCwsqTirJ0E_SyqpOg.ZpIBXT4cy77Ki4YSeQzn7QqkiJ30_dawiHC7VRMELBI",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Дом 700 м² на участке 20 сот.",
+    "price": 40000000,
+    "location": "Москва, Варшавское шоссе, 5 км",
+    "metro": "осква",
+    "img_url": "https://90.img.avito.st/image/1/1.QSwrFLa17cV1sgfCJX19exC078WVvwfCdbLvxw.1M_AyW_qrETyOxkRCoFvulMLfuwXjw6-Cl_9-eNikp8",
+    "platform": "avito",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Машиноместо",
+    "price": 25000,
+    "location": "Москва, ЗИЛ",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.V5WZmba1-3zHPxF7u5BI4qA5-XwnMhF7xz_5fg.hRIf51eCphWqUWdRt7FSKrLQYEJZUlPgSCSDRoTRkBM?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Машиноместо, 15 м²",
+    "price": 13000,
+    "location": "Москва, Щукинская",
+    "metro": "осква",
+    "img_url": "https://80.img.avito.st/image/1/1.90SMV7a1W63S8bGq7lzCN7X3Wa0y_LGq0vFZrw.IWEyC8xAZ2EzO4Tw7JAqVgN3Pc6o1DtamQx8gLvLinM",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Коттедж 303 м² на участке 15 сот.",
+    "price": 129950000,
+    "location": "Москва, Сколковское шоссе, 1 км",
+    "metro": "осква",
+    "img_url": "https://60.img.avito.st/image/1/1.qrHUura1BliKHOxfjOj8z-waBFhqEexfihwEWg.sf-6d1nAMkgBYl7YNnwbHQZwLhhmaveHPlpmjYz5lOY",
+    "platform": "avito",
+    "predicted_segment": "Люкс",
+    "confidence": 0.9
+  },
+  {
+    "name": "2-к. квартира, 70 м² (Турция)",
+    "price": 5759083,
+    "location": "",
+    "metro": "",
+    "img_url": "https://50.img.avito.st/image/1/1.6zysIra1R9XyhK3S9k2sFZGCRdUSia3S8oRF1w.tmPbtWpEBJB4vC0qQniQUUlKktXvzz0LB8thjI-hJEY",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Офис в цао с ремонтом и юр. адресом Чистые пруды",
+    "price": 70000,
+    "location": "Москва, Сретенский бульвар",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.7BHDiLa1QPidLqr_l6fcYfooQvh9I6r_nS5C-g.C1QkworjSe0LJxl271xj3H0pN9A23U8niRtqGA9U3EE?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Комната 20,2 м² в 4-к., 5/5 эт.",
+    "price": 6500000,
+    "location": "Москва, Перово",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.5QbPh7a1Se-RIaPoicD7ePYnS-9xLKPokSFL7Q.GqY4tGvKrSBaXm914_L6jizoeeG7SMiMUa0-g9RXcJI",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Участок 20 сот. (промназначения)",
+    "price": 150000,
+    "location": "Москва, Перерва",
+    "metro": "осква",
+    "img_url": "https://80.img.avito.st/image/1/1.CmPb87a1poqFVUyNw4dFKuFTpIplWEyNhVWkiA.T1nj_BiolbrfYUftYU3l5AYGJwkchKz12ItnVS533Qc",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "4-к. квартира, 220 м² (Турция)",
+    "price": 13872243,
+    "location": "",
+    "metro": "",
+    "img_url": "https://00.img.avito.st/image/1/1.ZjoqeLa1ytN03iDUal0NIxvYyNOU0yDUdN7I0Q.vF6a3FgBwldIao7o5qlUTHOvejy8W_lIX0160Y9IJ2c?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Комната 12 м² в 3-к., 3/9 эт.",
+    "price": 30000,
+    "location": "Москва, Сходненская",
+    "metro": "осква",
+    "img_url": "https://10.img.avito.st/image/1/1.LEVE17a1gKwacWqrEPMWM313gqz6fGqrGnGCrg.J8_8KpkVG7AbM7QsZR6NmnI5bXfXicyQzwC4GgIi_cA?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Участок 5 сот. (ИЖС)",
+    "price": 5995000,
+    "location": "д. Жабкино, КП Старт, Варшавское шоссе, 2 км",
+    "metro": "",
+    "img_url": "https://80.img.avito.st/image/1/1.9jk8Fba1WtBis7DXXAqnNge1WNCCvrDXYrNY0g.k12ZpO7870z2BBbiMcVDR5OC1tLHBxwNar9_SgDTN_U",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Комната 14 м² в 3-к., 6/16 эт.",
+    "price": 7200000,
+    "location": "Москва, Домодедовская",
+    "metro": "осква",
+    "img_url": "https://60.img.avito.st/image/1/1.dJ618ba12HfrVzJw0fQV7oxR2ncLWjJw61fadQ.5e7-xjqICo3t_yj14VID87XQFEKyvCCOMi_b-NlxMPI",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "2-к. квартира, 43 м², 7/9 эт.",
+    "price": 80000,
+    "location": "Москва, Багратионовская",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.EMz5KLa1vCWnjlYi1UwGu8CIviVHg1Yip46-Jw.1hTkiiN30lH2SwqKMBHAIfAAO9EZDyc3wfAGAh6rjPc?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Участок 45 сот. (промназначения)",
+    "price": 15750000,
+    "location": "д. Дурыкино, Ленинградское шоссе, 26 км",
+    "metro": "",
+    "img_url": "https://10.img.avito.st/image/1/1.mpOkGra1Nnr6vNx9nGD0z5y6NHoasdx9-rw0eA.QjR1lNTCpwPamLU_heu56gKzrAotvslWc5eByaFRdGY?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Дом 164,4 м² на участке 3 сот.",
+    "price": 26793000,
+    "location": "пгт. Измайлово, КП Кленовый, Варшавское шоссе, 2 км",
+    "metro": "айлово",
+    "img_url": "https://90.img.avito.st/image/1/1.5_H6Vra1Sxik8KEfuGmzh8H2SRhE_aEfpPBJGg.KDt8w_v4Fe2jnDhRmXe8JlGipMpGqRDlf0ylmGA36vM",
+    "platform": "avito",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "2-к. квартира, 54 м² (Турция)",
+    "price": 5128527,
+    "location": "",
+    "metro": "",
+    "img_url": "https://90.img.avito.st/image/1/1.w_q157a1bxPrQYUUv5Cg_PxGbRMLTIUU60FtEQ.aiYTPrnKQJ9v7jJtMcGeVyRbxnRbLWuENEku9jz8iKw",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "2-к. квартира, 65 м² (Кипр)",
+    "price": 9510235,
+    "location": "",
+    "metro": "",
+    "img_url": "https://50.img.avito.st/image/1/1.i38GcLa1J5ZY1s2RHDKJMjzQJZa4282RWNYllA.YexaFN3EQT-STaX-DwxM5ZjEJXvFqKdjvq01rg8Wwjs",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Участок 5 сот. (ИЖС)",
+    "price": 7500000,
+    "location": "д. Жабкино, КП Сад, Варшавское шоссе, 2 км",
+    "metro": "",
+    "img_url": "https://80.img.avito.st/image/1/1.U3vHBra1_5KZoBWV7V9QDfym_ZJ5rRWVmaD9kA.HnV4UQVfTlcSt3YDr6D5XByE8ve4j2YYLw6A9OS-0CI",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "3-к. апартаменты, 192 м², 57/85 эт.",
+    "price": 127000000,
+    "location": "Москва, Москва-Сити",
+    "metro": "осква",
+    "img_url": "https://40.img.avito.st/image/1/1.Ji8rura1isZ1HGDBa_4PWhIaiMaVEWDBdRyIxA.9d-_nwbrxFv3lQCucnDXRpoq_SDDGgKpJ2Y2Tu1kG7Q",
+    "platform": "avito",
+    "predicted_segment": "Люкс",
+    "confidence": 0.9
+  },
+  {
+    "name": "Машиноместо, 15 м²",
+    "price": 7500,
+    "location": "Москва, Балтийская",
+    "metro": "осква",
+    "img_url": "https://50.img.avito.st/image/1/1.r9CL0ra1AznVdOk-2eS9rbJyATk1eek-1XQBOw.RWoIp4Ll6gLUFxq2G7UwxqSz36CRkF71U3ULQBEpf5E",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Участок 5 сот. (промназначения)",
+    "price": 25000,
+    "location": "Москва, Багратионовская",
+    "metro": "осква",
+    "img_url": "https://70.img.avito.st/image/1/1.7RcClra1Qf5cMKv5VL2_Wzo2Q_68Pav5XDBD_A.rXFCWDCjwHxYPlzpaOQUkwfSYjrd_5p8LM4Dhs0Orvc",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Аукцион: Машиноместо, 18 м²",
+    "price": 2784210,
+    "location": "Москва, Кожуховская",
+    "metro": "осква",
+    "img_url": "https://90.img.avito.st/image/1/1._uL-P7a1UgugmbgMjkjThsefUAtAlLgMoJlQCQ.CFuNYskbP1O9DG9uPMewVjeP0_Oq0pL4uoJgH5Dq7gA",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "3-к. квартира, 60 м², 5/25 эт.",
+    "price": 140000,
+    "location": "Москва, Стахановская",
+    "metro": "осква",
+    "img_url": "https://00.img.avito.st/image/1/1.w7flBra1b167oIVZ71nzwdymbV5brYVZu6BtXA.kiebXeot_TZRZjfCOS6ENrYXK4jsP_elDNH9VTkgsJ8?cqp=2.O9VHMdnkkgCaSrQQgyh_XU8e-7v0vfPpTRdWWXdOryD04F30lLR3j9hyxIN0yCNsyT6y3v2ucr1AULDec9-tC5-yC2bOXAyQ",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Сдам помещение свободного назначения, 195 м²",
+    "price": 550000,
+    "location": "Москва, Медведково",
+    "metro": "осква",
+    "img_url": "https://60.img.avito.st/image/1/1.DhgrIba1ovF1h0j2Ozl-ZBKBoPGVikj2dYeg8w.zu0IuZa2FwDg__eMRwX0hlT7oAZ_tD7WjJAHODhWEWc",
+    "platform": "avito",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "/ Моноблок 23.8\" U24W2 8 256 ГБ",
+    "price_sell": 17884,
+    "sell": "43",
+    "img": "https://basket-41.wbbasket.ru/vol9990/part999053/999053349/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "1 оценка",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Ноутбук 32+2048 ГБ,16,2\" OLED,Подходит для работы и учебы",
+    "price_sell": 29011,
+    "sell": "72",
+    "img": "https://basket-41.wbbasket.ru/vol9958/part995826/995826797/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "3 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок для работы и учёбы i7-16 512ГБ 23 8\"",
+    "price_sell": 23746,
+    "sell": "46",
+    "img": "https://basket-25.wbbasket.ru/vol4476/part447617/447617600/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "40 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Моноблок AZ-2409 24\" Intel i5-3210M 2x2.5Ghz, 16Gb, 512Gb",
+    "price_sell": 25951,
+    "sell": "40",
+    "img": "https://basket-28.wbbasket.ru/vol5264/part526419/526419386/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "28 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок для работы и учёбы i5-8 256ГБ 23.8\"",
+    "price_sell": 19925,
+    "sell": "55",
+    "img": "https://basket-40.wbbasket.ru/vol9242/part924221/924221362/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "1 оценка",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок для работы и учёбы i7-6600U 16ГБ 512ГБ 23.8\"",
+    "price_sell": 34686,
+    "sell": "22",
+    "img": "https://basket-38.wbbasket.ru/vol8663/part866308/866308513/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "37 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Моноблок для работы и учёбы i5-8 256ГБ 23.8\"",
+    "price_sell": 19930,
+    "sell": "55",
+    "img": "https://basket-31.wbbasket.ru/vol6138/part613830/613830254/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "67 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок компьютер для работы и учебы",
+    "price_sell": 34423,
+    "sell": "47",
+    "img": "https://basket-26.wbbasket.ru/vol4779/part477900/477900677/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "235 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок AZ-2408 23,8\" Intel i5-2450M 2x2,5GHz, 16Gb, 512Gb",
+    "price_sell": 25347,
+    "sell": "40",
+    "img": "https://basket-27.wbbasket.ru/vol4976/part497600/497600199/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "293 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Ноутбук для работы и учебы",
+    "price_sell": 26351,
+    "sell": "45",
+    "img": "https://basket-36.wbbasket.ru/vol7909/part790980/790980549/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "299 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок 24 дюйма Intel i7 4790 16 Гб RAM",
+    "price_sell": 42471,
+    "sell": "26",
+    "img": "https://basket-13.wbbasket.ru/vol1971/part197162/197162772/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "45 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Моноблок AZ-2416 23,8\" Intel N95 4x3.4GHz, 16Gb, 512Gb",
+    "price_sell": 38640,
+    "sell": "40",
+    "img": "https://basket-31.wbbasket.ru/vol6222/part622262/622262616/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "92 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок AZ-2416 23,8\" Intel N95 4x3.4GHz, 8Gb, 256Gb",
+    "price_sell": 36252,
+    "sell": "33",
+    "img": "https://basket-31.wbbasket.ru/vol6222/part622262/622262614/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "92 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок компьютер для пик игровой 27\" Intel Core i7-3610QM",
+    "price_sell": 29376,
+    "sell": "61",
+    "img": "https://basket-41.wbbasket.ru/vol10132/part1013283/1013283866/images/c516x688/1.webp",
+    "rating": 0.0,
+    "rating_count": "",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Компьютер игровой с монитором RX580 8GB 16GB 256GB",
+    "price_sell": 42215,
+    "sell": "64",
+    "img": "https://basket-39.wbbasket.ru/vol8850/part885053/885053504/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "38 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Моноблок изогнутый компьютер диагональ 27 игровой",
+    "price_sell": 37275,
+    "sell": "37",
+    "img": "https://basket-39.wbbasket.ru/vol9130/part913084/913084938/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "2 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Компьютер игровой с монитором RX580 8GB 32GB 512GB",
+    "price_sell": 48480,
+    "sell": "61",
+    "img": "https://basket-39.wbbasket.ru/vol8850/part885057/885057941/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "38 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Моноблок 24 дюйма Intel i5 4590 16 Гб RAM 512 GB SSD Белый",
+    "price_sell": 35137,
+    "sell": "28",
+    "img": "https://basket-38.wbbasket.ru/vol8512/part851228/851228804/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "19 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Ноутбук для учебы и работы игровой 15.6\"12GB DDR5, SSD 512GB",
+    "price_sell": 29127,
+    "sell": "65",
+    "img": "https://basket-15.wbbasket.ru/vol2245/part224511/224511097/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "914 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Моноблок AZ-2722 27\" Intel i5-1240P 12x1,7Ghz, 16Gb, 512Gb",
+    "price_sell": 65193,
+    "sell": "36",
+    "img": "https://basket-40.wbbasket.ru/vol9427/part942716/942716191/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "14 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок компьютер для пик игровой 24\" Intel Core i7-3610QM",
+    "price_sell": 28284,
+    "sell": "61",
+    "img": "https://basket-42.wbbasket.ru/vol10457/part1045775/1045775088/images/c516x688/1.webp",
+    "rating": 0.0,
+    "rating_count": "",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Компьютер 23.8\" i3 1215U 8 256ГБ UHD Windows",
+    "price_sell": 48296,
+    "sell": "25",
+    "img": "https://basket-33.wbbasket.ru/vol6770/part677073/677073568/images/c516x688/1.webp",
+    "rating": 0.0,
+    "rating_count": "",
+    "platform": "wildberries",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Компьютер 27\" i7 1255U, 16 512ГБ Iris Xe Windows",
+    "price_sell": 69551,
+    "sell": "25",
+    "img": "https://basket-25.wbbasket.ru/vol4542/part454201/454201031/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "2 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Ноутбук 15.6 Core i5 1334U 16 512ГБ Iris Xe Windows",
+    "price_sell": 54820,
+    "sell": "23",
+    "img": "https://basket-20.wbbasket.ru/vol3309/part330950/330950236/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "3 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ 23.8‘ Intel Core i5-8500 RAM 16 ГБ, SSD 512 ГБ, Windows，Русс…",
+    "price_sell": 41512,
+    "sell": "40",
+    "img": "https://basket-26.wbbasket.ru/vol4745/part474569/474569474/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "11 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Компьютер P231 23.8\" Intel N100, 8 256ГБ SSD UHD Graphics Wi…",
+    "price_sell": 33944,
+    "sell": "25",
+    "img": "https://basket-24.wbbasket.ru/vol4345/part434596/434596733/images/c516x688/1.webp",
+    "rating": 0.0,
+    "rating_count": "",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Компьютер 23.8\" i7 12700 15 512ГБ UHD Windows",
+    "price_sell": 74382,
+    "sell": "25",
+    "img": "https://basket-33.wbbasket.ru/vol6770/part677077/677077741/images/c516x688/1.webp",
+    "rating": 0.0,
+    "rating_count": "",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Apextore Компьютер Intel Core i5 2400 16 GB RAM 240 GB SSD",
+    "price_sell": 25353,
+    "sell": "47",
+    "img": "https://basket-36.wbbasket.ru/vol7996/part799624/799624355/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "32 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Ноутбук игровой TUF Gaming F17 Intel i5 16gb 512gb RTX 3050",
+    "price_sell": 76523,
+    "sell": "31",
+    "img": "https://basket-34.wbbasket.ru/vol7213/part721311/721311749/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "1 оценка",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Компьютер с монитором 20\" intel 4 ядра GT-610 4GB SSD-128G",
+    "price_sell": 27305,
+    "sell": "71",
+    "img": "https://basket-05.wbbasket.ru/vol809/part80906/80906552/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "66 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Компьютер c монитором 22\" intel-i5 GTX-650 8GB SSD-256G",
+    "price_sell": 31377,
+    "sell": "76",
+    "img": "https://basket-10.wbbasket.ru/vol1473/part147327/147327594/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "33 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ 23.8\" Моноблок I5-7500 16GB 512GB (Intel Core i5-7500, RAM 1…",
+    "price_sell": 38207,
+    "sell": "35",
+    "img": "https://basket-30.wbbasket.ru/vol6001/part600110/600110866/images/c516x688/1.webp",
+    "rating": 0.0,
+    "rating_count": "",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Intel Core i7 Ноутбук, 32 ГБ, SSD 2ТБ для работы и игр",
+    "price_sell": 18895,
+    "sell": "84",
+    "img": "https://basket-35.wbbasket.ru/vol7395/part739590/739590084/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "2 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Компьютер игровой i7 RX 580 8GB 16GB SSD 512GB Монитор 24\"",
+    "price_sell": 76024,
+    "sell": "63",
+    "img": "https://basket-23.wbbasket.ru/vol4130/part413030/413030651/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "3 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Премиум",
+    "confidence": 0.7
+  },
+  {
+    "name": "/ Компьютер с монитором 27\" RX 580 8GB 16GB SSD 1TB",
+    "price_sell": 80503,
+    "sell": "65",
+    "img": "https://basket-23.wbbasket.ru/vol4130/part413030/413030637/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "4 оценки",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок 24 дюйма Intel i5 4590 16 Гб RAM",
+    "price_sell": 38011,
+    "sell": "28",
+    "img": "https://basket-13.wbbasket.ru/vol1971/part197151/197151499/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "119 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Ноутбук для работы и учебы мощный",
+    "price_sell": 29894,
+    "sell": "38",
+    "img": "https://basket-39.wbbasket.ru/vol8925/part892598/892598238/images/c516x688/1.webp",
+    "rating": 5.0,
+    "rating_count": "1 113 оценок",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Ноутбук 15 6\" Ryzen 5 3500U 16ГБ SSD 512 Vega 8 Windows Pro",
+    "price_sell": 32469,
+    "sell": "71",
+    "img": "https://basket-28.wbbasket.ru/vol5352/part535292/535292352/images/c516x688/1.webp",
+    "rating": 4.0,
+    "rating_count": "561 оценка",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок E5402WVAK-BA1010 (90PT03J4-M00SM0)",
+    "price_sell": 116033,
+    "sell": "25",
+    "img": "https://basket-39.wbbasket.ru/vol8745/part874507/874507777/images/c516x688/1.webp",
+    "rating": 0.0,
+    "rating_count": "",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "/ Моноблок BaseLine B240i-017b",
+    "price_sell": 59286,
+    "sell": "25",
+    "img": "https://basket-38.wbbasket.ru/vol8371/part837166/837166822/images/c516x688/1.webp",
+    "rating": 0.0,
+    "rating_count": "",
+    "platform": "wildberries",
+    "predicted_segment": "Средний",
+    "confidence": 0.5
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Mini Intel  Core i5  12400,  DDR4 16ГБ, 512ГБ,  без операционной системы,  черный",
+    "price": 57740,
+    "img": "https://cdn.citilink.ru/nxUM7rM6GpFZUvnnDrw47nUMY2l1P-kk4IonQUWnEM4/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/d1401ee3-02b2-4f69-82c4-87d190f20245.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  CHUWI LarkBox X Intel  Core i3  1220P,  DDR4 8ГБ, 256ГБ,  Windows 11 Pro,  черный и белый",
+    "price": 33990,
+    "img": "https://cdn.citilink.ru/q5GWdlb1XqyzLZ9CA9TN4xstD5NSLKIXkkv8EzyfnWM/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/08c08566-9125-4dfb-bc82-a537b3cdfb8b.jpg",
+    "rating": 0.0,
+    "platform": "citilink",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  MSI Cubi 5 1M-464BRU Intel  Core 3  100U,  без операционной системы,  черный",
+    "price": 29990,
+    "img": "https://cdn.citilink.ru/r1v0IumRc1kmybq9iktZHdJT-pslzmJW098Vw2fWYuw/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/bca182d4-6f1b-41ad-9341-194bb16fedf0.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  DIGMA PRO Minimax X5 Intel  Core i5  12600H,  DDR4 16ГБ, 512ГБ,  Windows 11 Pro,  серебристый",
+    "price": 55020,
+    "img": "https://cdn.citilink.ru/qMV4B_JVRCH-qF7japPpWoiWWO6-_eu1kbTbzJd3a5s/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/59df7804-4314-440e-9741-c0d156b66799.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  12400,  DDR4 16ГБ, 256ГБ,  FreeDOS,  черный",
+    "price": 54660,
+    "img": "https://cdn.citilink.ru/WFSfOnCCiSEog9xGSCVBLoN9e_9FRWsaNKRSGsONXjA/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/a16baa73-5a8a-4f4a-9e37-8d8358eb148a.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Tactio 510B7GP Tower Intel  Core i7  14700F,  DDR5 32ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 219560,
+    "img": "https://cdn.citilink.ru/wFX1tO8IkVb3tOvKtCgTCMroVnjaqqovUAYlY4QsE48/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/b4aae182-7137-4da9-a90d-051ad6034bca.jpg",
+    "rating": 0.0,
+    "platform": "citilink",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i3  12100,  DDR4 8ГБ, 256ГБ,  FreeDOS,  черный",
+    "price": 43470,
+    "img": "https://cdn.citilink.ru/cqLMG4II1XbLxkEZMM2DTWm_BFvxhrFALBYbln4J-mc/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/835b75cd-fcf3-469e-ad53-305b8c02609f.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  BLOODY BD-PC RAB84T2 AMD  Ryzen 7  7700,  DDR5 32ГБ, 1ТБ,  Windows 11 Home,  черный",
+    "price": 146990,
+    "img": "https://cdn.citilink.ru/PtsPhHLVNgZLSbKoy009A7HRloMiwzYS70adYocYRKo/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/dd95470b-4e4e-487d-a19c-ac928c210516.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  OSIO CyberLine C59i Intel  Core i5  12400F,  DDR4 16ГБ, 1ТБ,  без операционной системы,  черный",
+    "price": 79990,
+    "img": "https://cdn.citilink.ru/VO9W00cL8Pv86wKYFFiEwf3SiUrd2-jk4gSRMNY7iZI/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/17bb3302-6302-48a5-b118-f0df7d1d3f28.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i3  12100,  DDR4 16ГБ, 256ГБ,  FreeDOS,  черный",
+    "price": 50870,
+    "img": "https://cdn.citilink.ru/bC9eD1I95vJKGP666tcs7OQ4zp2Ma6o9e2oVJ2-dlLA/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/cfe3bcd3-ed8f-43ea-93b0-282257ca2429.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Tactio 310H6SB Intel  Core i5  13400,  DDR5 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 66270,
+    "img": "https://cdn.citilink.ru/VJl7tQQaJ1qZral22a1IF6-hoY4fhLkpgMggiq1_kTw/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/2e7a72f1-811c-4aa0-815d-2448a0568836.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  12400,  DDR4 16ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 62170,
+    "img": "https://cdn.citilink.ru/b9wGMdfhX6Rus-gupHZOqnHoLFlknwrH6oXs4Bjg1bM/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/303adc07-6615-4c13-b490-6602e58ae741.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Tactio 510B7GP Tower Intel  Core i7  14700F,  DDR5 32ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 165060,
+    "img": "https://cdn.citilink.ru/BwQpSR82--L05Jx-edauVQe6qgPmo7CnWVeZaVwuuAc/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/52c06a4c-4ac7-4986-9023-5042170662d2.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  BLOODY BD-PC CB76T2 Tower Intel  Core i7  14700F,  DDR5 32ГБ, 1ТБ,  Windows 11 Home,  черный",
+    "price": 203680,
+    "img": "https://cdn.citilink.ru/txknVrL4uZ09ijKYbBLr_OWPoV3peJbQYa_fEgc_WaU/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/359c5081-eeb2-4cbf-be37-4ecc3ca92a67.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  13400,  DDR4 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 66360,
+    "img": "https://cdn.citilink.ru/pyrD7EMbEmazNGPKkWHU_tqw79DK6NX3at3LFcQN518/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/44265170-3074-4b1c-a322-3ecf9f3b2487.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  12400,  DDR4 32ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 69810,
+    "img": "https://cdn.citilink.ru/y0LQrgnEHthFa4pDwFBR7tqSaJhCaxmC4mEsSwuW6y4/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/a05b22a3-a52e-4cb4-a3e2-e9389462b6ac.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i5  12400,  DDR4 32ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 64890,
+    "img": "https://cdn.citilink.ru/r6yu1_BFOO5H4wz9gwe4w00mA2VtQECJ7xW7D928tZc/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/f5497f10-3a80-42d6-9d13-b563a0df7332.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  BLOODY BD-PC CB76T2 Tower Intel  Core i5  14400F,  DDR5 32ГБ, 1ТБ,  Windows 11 Home,  черный",
+    "price": 182300,
+    "img": "https://cdn.citilink.ru/ffIdzraE_7g-2SsAmzxKf7g78oKgQrb5lymq9vdfE-k/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/ec2c8a26-5ab2-44a4-9a31-eff74fb42416.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Tactio 310H6SB Intel  Core i5  12400,  DDR4 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 57710,
+    "img": "https://cdn.citilink.ru/h-KU-x-I8aBR7RhvPs5bWJgmAsXHuhpkQvGfEJZUs30/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/2b915246-17c0-4388-869a-c2cbb04ea7ac.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  MSI Cubi 5 1M-617XRU Intel  Core 5  120U,  DDR5 16ГБ, 512ГБ,  без операционной системы,  черный",
+    "price": 61990,
+    "img": "https://cdn.citilink.ru/cuMyPPJIlcXUnjNTv3DBw1ITRj1cDEL4GpBJ_8N5Do4/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/910ed2b5-8350-46bc-9ff3-b69f69a72a2c.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SEV Intel  Core i7  12700,  DDR4 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 67370,
+    "img": "https://cdn.citilink.ru/69OGHhJLNBI-jGFNU27xXYBbm_rkRikhEbJttojIfg4/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/f050d990-7dbf-491c-bf8c-a0da717dbd0d.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Tactio 310H6SEA Intel  Core i5  12400F,  DDR4 16ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 79320,
+    "img": "https://cdn.citilink.ru/x0yaJltfHQA5GY4J4VN4i31grHFr0tyvlDagBUJ7at8/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/74a41ef7-a259-4bb8-bcd4-6ea4df9877b7.jpg",
+    "rating": 4.8,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Tactio 520B6SB AMD  Ryzen 5  8600G,  DDR5 32ГБ, 512ГБ,  FreeDOS,  черный",
+    "price": 74160,
+    "img": "https://cdn.citilink.ru/fVayYLX_JalLT3MBsUBxGUr2yuUkq_R4q7nE7Tr-DiI/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/c9f14b04-db01-4782-b5d7-836082da6a81.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  MSI Pro DP21 14M-237BRU Intel  Core i3  14100,  DDR5,  без операционной системы,  черный",
+    "price": 33990,
+    "img": "https://cdn.citilink.ru/WjrhojAv6Qsx7l5ibu2GB8TDoisCQfI-xhM7iDYKgQE/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/53d9e399-fb70-4e6b-a34b-7e5bb027b985.jpg",
+    "rating": 4.6,
+    "platform": "citilink",
+    "predicted_segment": "Бюджетный",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  HP ProDesk 400 G9 Mini Intel  Core i5  14500T,  DDR5 16ГБ, 256ГБ,  Windows 11 Pro,  черный",
+    "price": 82990,
+    "img": "https://cdn.citilink.ru/OmKc5YH8sY05gowQcLxvNyP_40E5UrFj4ARkGn6-yGM/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/27eab8e4-98b7-40cd-b132-0651d561c2e3.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Мини ПК  CHUWI AuBox AMD  Ryzen AI 9  365,  DDR5 32ГБ, 1ТБ,  Windows 11 Pro,  серебристый и черный",
+    "price": 94990,
+    "img": "https://cdn.citilink.ru/42mHmqF3z6-QhWUMMwg5CyUlVOwwyl1xciBfkRabXs8/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/6373811a-a1c9-4c62-946d-e91458c872d1.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  MSI Cubi NUC AI 1UMG-060BRU Intel  Core Ultra 7  155H,  без операционной системы,  черный",
+    "price": 46990,
+    "img": "https://cdn.citilink.ru/wzLgj7P5cQSkpYP5G9FPR7mi1WwmbunX6Zz-kKvgTzE/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/1d2aac5e-0ff7-44d0-8a0a-45ff27e51ef5.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Strato 710Z7GP Tower Intel  Core i9  14900KF,  DDR5 64ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 345910,
+    "img": "https://cdn.citilink.ru/TTwCH5AqJ8YiMdoQzdlIGh89tJE9kKU1dlZu01DSmuY/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/298da41a-df35-4410-bc2b-7a6e1aa4001c.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Люкс",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  MSI Cubi Z AI 8M-026BRU AMD  Ryzen 9  8945HS,  без операционной системы",
+    "price": 47990,
+    "img": "https://cdn.citilink.ru/XbyLPZY6pELuu9T4pbvVd_HjaZ4RcGrFCKgG_o2a_68/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/3c773946-2b24-46e9-9d0b-390fa9b46e9e.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  MSI Pro DP21 14M-1054XRU Intel  Core i5  14400,  DDR5 16ГБ, 512ГБ,  без операционной системы,  черный",
+    "price": 80990,
+    "img": "https://cdn.citilink.ru/VdXtEB3VUSi-5sZoZlO3nKoAc0O3qVIMbiQ-lfpp4p4/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/cf634948-4286-4f80-b301-fc8df08c4d38.jpg",
+    "rating": 4.6,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  BLOODY BD-PC CZ79C3 Intel  Core i7  14700F,  DDR5 64ГБ, 1ТБ,  Windows 11 Home,  черный",
+    "price": 407820,
+    "img": "https://cdn.citilink.ru/L3V0G5EzoJai4GQwf4QPeqFU0wBODKsmIVPgTjbBedE/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/57a933e4-4b67-4192-b578-2ebfb1479ef9.jpg",
+    "rating": 4.9,
+    "platform": "citilink",
+    "predicted_segment": "Люкс",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Planio 310H6SM Tower Intel  Core i3  12100F,  DDR4 8ГБ, 256ГБ,  без операционной системы,  черный",
+    "price": 42470,
+    "img": "https://cdn.citilink.ru/zWII7Upc3vXiOUmcxO5RTc3auHh5X28Mhy817wiUuz0/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/69eb00af-e298-4b66-9af6-4064435583d8.jpg",
+    "rating": 0.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Мини ПК  MSI Pro DP80 A14TAG-207XRU Intel  Core i5  14400F,  DDR5 16ГБ, 512ГБ,  без операционной системы,  черный",
+    "price": 93990,
+    "img": "https://cdn.citilink.ru/82-kYZ7He3dakFWiZZpI6xAAoqiDEVlh8aPajNnWkCI/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/9e55b714-4151-437d-996f-d6c351c40013.jpg",
+    "rating": 0.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Tactio 510B7GP Intel  Core i7  14700F,  DDR5 64ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 174170,
+    "img": "https://cdn.citilink.ru/hbAwfrT0garzPop7l7VCjYkutM847Qvl0MInxwztxjc/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/93b4807b-c26b-4c15-a556-dd847bf75c2f.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Компьютер  iRU Strato 710Z7GP Tower Intel  Core i7  14700K,  DDR5 64ГБ, 1ТБ,  FreeDOS,  черный",
+    "price": 187660,
+    "img": "https://cdn.citilink.ru/SRQu85wA2e0AGmOn_YRERSOZUNv2Dr5Lusj0s2F2m-k/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/b45231e4-f4ae-40fe-96fe-64bcc377aabd.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Премиум",
+    "confidence": 0.9
+  },
+  {
+    "name": "Неттоп  MSI Cubi 5 1M-460BRU Intel  Core 7  150U,  без операционной системы,  черный",
+    "price": 40990,
+    "img": "https://cdn.citilink.ru/tOXV7yg9F47GZI0AVPm3SW1rB9ufBO-k3kvXZzqp_6o/resizing_type:fit/gravity:sm/width:220/height:220/plain/product-images/f8b319f3-a237-4ead-9bae-61ac42878142.jpg",
+    "rating": 5.0,
+    "platform": "citilink",
+    "predicted_segment": "Средний",
+    "confidence": 0.9
+  }
+]
