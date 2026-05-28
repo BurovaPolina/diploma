@@ -6,6 +6,7 @@ def load_all_data():
     all_data = []
     root_dir = Path(__file__).parent
 
+    # Список папок, где могут лежать JSON-файлы с данными
     search_paths = [
         (root_dir / 'avito', 'avito'),
         (root_dir / 'ozon', 'ozon'),
@@ -15,6 +16,7 @@ def load_all_data():
 
     print("Поиск JSON файлов...")
 
+    # Проходим по каждой папке из списка
     for folder, platform in search_paths:
         if not folder.exists():
             continue
@@ -33,6 +35,7 @@ def load_all_data():
             try:
                 with open(json_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
+                    # Проверка, является ли загруженные данные списком
                     if isinstance(data, list):
                         for item in data:
                             item['platform'] = platform
@@ -43,7 +46,7 @@ def load_all_data():
     print(f"\nЗагружено {len(all_data)} записей")
     return all_data
 
-
+# Функция сохраняет размеченные данные в файл
 def save_labeled_data(data, filename='classifier/data/labeled/labeled_data.json'):
     root_dir = Path(__file__).parent
     full_path = root_dir / filename

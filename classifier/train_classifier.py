@@ -7,11 +7,16 @@ from classifier.price_segment_classifier import PriceSegmentClassifier
 
 
 def main():
+    """
+    Главная функция. Запускает обучение модели.
+    """
     print("=" * 60)
     print("ОБУЧЕНИЕ МОДЕЛИ")
     print("=" * 60)
 
+    # Создаём объект (экземпляр) классификатора
     classifier = PriceSegmentClassifier()
+    # Запускаем обучение модели
     success = classifier.train()
 
     if success:
